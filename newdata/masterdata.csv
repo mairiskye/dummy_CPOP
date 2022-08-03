@@ -428,237 +428,192 @@
 "Scotland","2018/19","Healthy Birthweight","Raw",90.0499904267977
 "Scotland","2019/20","Healthy Birthweight","Raw",89.7572688391764
 "Scotland","2020/21","Healthy Birthweight","Raw",89.0390383323773
-"Aberdeen City","2014/15","Child Poverty","Raw",3312
-"Aberdeen City","2015/16","Child Poverty","Raw",3756
-"Aberdeen City","2016/17","Child Poverty","Raw",4552
-"Aberdeen City","2017/18","Child Poverty","Raw",5251
-"Aberdeen City","2018/19","Child Poverty","Raw",5235
-"Aberdeen City","2019/20","Child Poverty","Raw",5349
-"Aberdeen City","2020/21","Child Poverty","Raw",4736
-"Aberdeenshire","2014/15","Child Poverty","Raw",3675
-"Aberdeenshire","2015/16","Child Poverty","Raw",4136
-"Aberdeenshire","2016/17","Child Poverty","Raw",4761
-"Aberdeenshire","2017/18","Child Poverty","Raw",5110
-"Aberdeenshire","2018/19","Child Poverty","Raw",4926
-"Aberdeenshire","2019/20","Child Poverty","Raw",5271
-"Aberdeenshire","2020/21","Child Poverty","Raw",4739
-"Angus","2014/15","Child Poverty","Raw",2579
-"Angus","2015/16","Child Poverty","Raw",2611
-"Angus","2016/17","Child Poverty","Raw",3051
-"Angus","2017/18","Child Poverty","Raw",3369
-"Angus","2018/19","Child Poverty","Raw",3377
-"Angus","2019/20","Child Poverty","Raw",3455
-"Angus","2020/21","Child Poverty","Raw",2949
-"Argyll and Bute","2014/15","Child Poverty","Raw",1733
-"Argyll and Bute","2015/16","Child Poverty","Raw",1775
-"Argyll and Bute","2016/17","Child Poverty","Raw",1989
-"Argyll and Bute","2017/18","Child Poverty","Raw",2211
-"Argyll and Bute","2018/19","Child Poverty","Raw",2160
-"Argyll and Bute","2019/20","Child Poverty","Raw",2214
-"Argyll and Bute","2020/21","Child Poverty","Raw",1736
-"Edinburgh, City of","2014/15","Child Poverty","Raw",7560
-"Edinburgh, City of","2015/16","Child Poverty","Raw",7738
-"Edinburgh, City of","2016/17","Child Poverty","Raw",8957
-"Edinburgh, City of","2017/18","Child Poverty","Raw",9961
-"Edinburgh, City of","2018/19","Child Poverty","Raw",9561
-"Edinburgh, City of","2019/20","Child Poverty","Raw",10020
-"Edinburgh, City of","2020/21","Child Poverty","Raw",8972
-"Clackmannanshire","2014/15","Child Poverty","Raw",1502
-"Clackmannanshire","2015/16","Child Poverty","Raw",1555
-"Clackmannanshire","2016/17","Child Poverty","Raw",1737
-"Clackmannanshire","2017/18","Child Poverty","Raw",1971
-"Clackmannanshire","2018/19","Child Poverty","Raw",1871
-"Clackmannanshire","2019/20","Child Poverty","Raw",2034
-"Clackmannanshire","2020/21","Child Poverty","Raw",1677
-"Dumfries and Galloway","2014/15","Child Poverty","Raw",3854
-"Dumfries and Galloway","2015/16","Child Poverty","Raw",3989
-"Dumfries and Galloway","2016/17","Child Poverty","Raw",4322
-"Dumfries and Galloway","2017/18","Child Poverty","Raw",4854
-"Dumfries and Galloway","2018/19","Child Poverty","Raw",4685
-"Dumfries and Galloway","2019/20","Child Poverty","Raw",5169
-"Dumfries and Galloway","2020/21","Child Poverty","Raw",4237
-"Dundee City","2014/15","Child Poverty","Raw",3892
-"Dundee City","2015/16","Child Poverty","Raw",3924
-"Dundee City","2016/17","Child Poverty","Raw",4713
-"Dundee City","2017/18","Child Poverty","Raw",5231
-"Dundee City","2018/19","Child Poverty","Raw",5102
-"Dundee City","2019/20","Child Poverty","Raw",5217
-"Dundee City","2020/21","Child Poverty","Raw",4224
-"East Ayrshire","2014/15","Child Poverty","Raw",3743
-"East Ayrshire","2015/16","Child Poverty","Raw",3867
-"East Ayrshire","2016/17","Child Poverty","Raw",4294
-"East Ayrshire","2017/18","Child Poverty","Raw",4709
-"East Ayrshire","2018/19","Child Poverty","Raw",4750
-"East Ayrshire","2019/20","Child Poverty","Raw",4923
-"East Ayrshire","2020/21","Child Poverty","Raw",4143
-"East Dunbartonshire","2014/15","Child Poverty","Raw",1543
-"East Dunbartonshire","2015/16","Child Poverty","Raw",1605
-"East Dunbartonshire","2016/17","Child Poverty","Raw",1825
-"East Dunbartonshire","2017/18","Child Poverty","Raw",1845
-"East Dunbartonshire","2018/19","Child Poverty","Raw",1776
-"East Dunbartonshire","2019/20","Child Poverty","Raw",2013
-"East Dunbartonshire","2020/21","Child Poverty","Raw",1619
-"East Lothian","2014/15","Child Poverty","Raw",2351
-"East Lothian","2015/16","Child Poverty","Raw",2433
-"East Lothian","2016/17","Child Poverty","Raw",2686
-"East Lothian","2017/18","Child Poverty","Raw",2859
-"East Lothian","2018/19","Child Poverty","Raw",2749
-"East Lothian","2019/20","Child Poverty","Raw",3040
-"East Lothian","2020/21","Child Poverty","Raw",2485
-"East Renfrewshire","2014/15","Child Poverty","Raw",1531
-"East Renfrewshire","2015/16","Child Poverty","Raw",1594
-"East Renfrewshire","2016/17","Child Poverty","Raw",1698
-"East Renfrewshire","2017/18","Child Poverty","Raw",1839
-"East Renfrewshire","2018/19","Child Poverty","Raw",1890
-"East Renfrewshire","2019/20","Child Poverty","Raw",2046
-"East Renfrewshire","2020/21","Child Poverty","Raw",1758
-"Falkirk","2014/15","Child Poverty","Raw",4221
-"Falkirk","2015/16","Child Poverty","Raw",4153
-"Falkirk","2016/17","Child Poverty","Raw",4622
-"Falkirk","2017/18","Child Poverty","Raw",5010
-"Falkirk","2018/19","Child Poverty","Raw",5155
-"Falkirk","2019/20","Child Poverty","Raw",5400
-"Falkirk","2020/21","Child Poverty","Raw",4529
-"Fife","2014/15","Child Poverty","Raw",10335
-"Fife","2015/16","Child Poverty","Raw",10592
-"Fife","2016/17","Child Poverty","Raw",11741
-"Fife","2017/18","Child Poverty","Raw",13034
-"Fife","2018/19","Child Poverty","Raw",13063
-"Fife","2019/20","Child Poverty","Raw",13747
-"Fife","2020/21","Child Poverty","Raw",11097
-"Glasgow City","2014/15","Child Poverty","Raw",20411
-"Glasgow City","2015/16","Child Poverty","Raw",21346
-"Glasgow City","2016/17","Child Poverty","Raw",24115
-"Glasgow City","2017/18","Child Poverty","Raw",28211
-"Glasgow City","2018/19","Child Poverty","Raw",28670
-"Glasgow City","2019/20","Child Poverty","Raw",29750
-"Glasgow City","2020/21","Child Poverty","Raw",24758
-"Highland","2014/15","Child Poverty","Raw",5298
-"Highland","2015/16","Child Poverty","Raw",5535
-"Highland","2016/17","Child Poverty","Raw",6062
-"Highland","2017/18","Child Poverty","Raw",6168
-"Highland","2018/19","Child Poverty","Raw",6113
-"Highland","2019/20","Child Poverty","Raw",6636
-"Highland","2020/21","Child Poverty","Raw",5879
-"Inverclyde","2014/15","Child Poverty","Raw",1804
-"Inverclyde","2015/16","Child Poverty","Raw",1914
-"Inverclyde","2016/17","Child Poverty","Raw",2000
-"Inverclyde","2017/18","Child Poverty","Raw",2131
-"Inverclyde","2018/19","Child Poverty","Raw",2197
-"Inverclyde","2019/20","Child Poverty","Raw",2219
-"Inverclyde","2020/21","Child Poverty","Raw",1681
-"Midlothian","2014/15","Child Poverty","Raw",2100
-"Midlothian","2015/16","Child Poverty","Raw",2015
-"Midlothian","2016/17","Child Poverty","Raw",2356
-"Midlothian","2017/18","Child Poverty","Raw",2573
-"Midlothian","2018/19","Child Poverty","Raw",2585
-"Midlothian","2019/20","Child Poverty","Raw",2796
-"Midlothian","2020/21","Child Poverty","Raw",2446
-"Moray","2014/15","Child Poverty","Raw",2078
-"Moray","2015/16","Child Poverty","Raw",2133
-"Moray","2016/17","Child Poverty","Raw",2567
-"Moray","2017/18","Child Poverty","Raw",2620
-"Moray","2018/19","Child Poverty","Raw",2592
-"Moray","2019/20","Child Poverty","Raw",2738
-"Moray","2020/21","Child Poverty","Raw",2583
-"Eilean Siar","2014/15","Child Poverty","Raw",443
-"Eilean Siar","2015/16","Child Poverty","Raw",520
-"Eilean Siar","2016/17","Child Poverty","Raw",570
-"Eilean Siar","2017/18","Child Poverty","Raw",550
-"Eilean Siar","2018/19","Child Poverty","Raw",507
-"Eilean Siar","2019/20","Child Poverty","Raw",609
-"Eilean Siar","2020/21","Child Poverty","Raw",491
-"North Ayrshire","2014/15","Child Poverty","Raw",4299
-"North Ayrshire","2015/16","Child Poverty","Raw",4224
-"North Ayrshire","2016/17","Child Poverty","Raw",4739
-"North Ayrshire","2017/18","Child Poverty","Raw",5254
-"North Ayrshire","2018/19","Child Poverty","Raw",5225
-"North Ayrshire","2019/20","Child Poverty","Raw",5663
-"North Ayrshire","2020/21","Child Poverty","Raw",4632
-"North Lanarkshire","2014/15","Child Poverty","Raw",10794
-"North Lanarkshire","2015/16","Child Poverty","Raw",11145
-"North Lanarkshire","2016/17","Child Poverty","Raw",12155
-"North Lanarkshire","2017/18","Child Poverty","Raw",13308
-"North Lanarkshire","2018/19","Child Poverty","Raw",13205
-"North Lanarkshire","2019/20","Child Poverty","Raw",13980
-"North Lanarkshire","2020/21","Child Poverty","Raw",11699
-"Orkney Islands","2014/15","Child Poverty","Raw",405
-"Orkney Islands","2015/16","Child Poverty","Raw",408
-"Orkney Islands","2016/17","Child Poverty","Raw",493
-"Orkney Islands","2017/18","Child Poverty","Raw",486
-"Orkney Islands","2018/19","Child Poverty","Raw",527
-"Orkney Islands","2019/20","Child Poverty","Raw",532
-"Orkney Islands","2020/21","Child Poverty","Raw",463
-"Perth and Kinross","2014/15","Child Poverty","Raw",2909
-"Perth and Kinross","2015/16","Child Poverty","Raw",3062
-"Perth and Kinross","2016/17","Child Poverty","Raw",3364
-"Perth and Kinross","2017/18","Child Poverty","Raw",3774
-"Perth and Kinross","2018/19","Child Poverty","Raw",3735
-"Perth and Kinross","2019/20","Child Poverty","Raw",4008
-"Perth and Kinross","2020/21","Child Poverty","Raw",3350
-"Renfrewshire","2014/15","Child Poverty","Raw",3541
-"Renfrewshire","2015/16","Child Poverty","Raw",3672
-"Renfrewshire","2016/17","Child Poverty","Raw",4267
-"Renfrewshire","2017/18","Child Poverty","Raw",4967
-"Renfrewshire","2018/19","Child Poverty","Raw",5070
-"Renfrewshire","2019/20","Child Poverty","Raw",5433
-"Renfrewshire","2020/21","Child Poverty","Raw",4454
-"Scottish Borders","2014/15","Child Poverty","Raw",2453
-"Scottish Borders","2015/16","Child Poverty","Raw",2626
-"Scottish Borders","2016/17","Child Poverty","Raw",2907
-"Scottish Borders","2017/18","Child Poverty","Raw",3211
-"Scottish Borders","2018/19","Child Poverty","Raw",3193
-"Scottish Borders","2019/20","Child Poverty","Raw",3458
-"Scottish Borders","2020/21","Child Poverty","Raw",2770
-"Shetland Islands","2014/15","Child Poverty","Raw",293
-"Shetland Islands","2015/16","Child Poverty","Raw",313
-"Shetland Islands","2016/17","Child Poverty","Raw",382
-"Shetland Islands","2017/18","Child Poverty","Raw",445
-"Shetland Islands","2018/19","Child Poverty","Raw",387
-"Shetland Islands","2019/20","Child Poverty","Raw",418
-"Shetland Islands","2020/21","Child Poverty","Raw",563
-"South Ayrshire","2014/15","Child Poverty","Raw",2742
-"South Ayrshire","2015/16","Child Poverty","Raw",2685
-"South Ayrshire","2016/17","Child Poverty","Raw",3111
-"South Ayrshire","2017/18","Child Poverty","Raw",3324
-"South Ayrshire","2018/19","Child Poverty","Raw",3416
-"South Ayrshire","2019/20","Child Poverty","Raw",3467
-"South Ayrshire","2020/21","Child Poverty","Raw",2789
-"South Lanarkshire","2014/15","Child Poverty","Raw",7773
-"South Lanarkshire","2015/16","Child Poverty","Raw",7704
-"South Lanarkshire","2016/17","Child Poverty","Raw",8591
-"South Lanarkshire","2017/18","Child Poverty","Raw",9518
-"South Lanarkshire","2018/19","Child Poverty","Raw",9291
-"South Lanarkshire","2019/20","Child Poverty","Raw",9839
-"South Lanarkshire","2020/21","Child Poverty","Raw",8274
-"Stirling","2014/15","Child Poverty","Raw",1864
-"Stirling","2015/16","Child Poverty","Raw",1797
-"Stirling","2016/17","Child Poverty","Raw",2017
-"Stirling","2017/18","Child Poverty","Raw",2198
-"Stirling","2018/19","Child Poverty","Raw",2165
-"Stirling","2019/20","Child Poverty","Raw",2418
-"Stirling","2020/21","Child Poverty","Raw",1981
-"Scotland","2014/15","Child Poverty","Raw",128263
-"Scotland","2015/16","Child Poverty","Raw",132119
-"Scotland","2016/17","Child Poverty","Raw",149008
-"Scotland","2017/18","Child Poverty","Raw",165386
-"Scotland","2018/19","Child Poverty","Raw",164742
-"Scotland","2019/20","Child Poverty","Raw",173851
-"Scotland","2020/21","Child Poverty","Raw",146076
-"West Dunbartonshire","2014/15","Child Poverty","Raw",2566
-"West Dunbartonshire","2015/16","Child Poverty","Raw",2559
-"West Dunbartonshire","2016/17","Child Poverty","Raw",2975
-"West Dunbartonshire","2017/18","Child Poverty","Raw",3485
-"West Dunbartonshire","2018/19","Child Poverty","Raw",3446
-"West Dunbartonshire","2019/20","Child Poverty","Raw",3565
-"West Dunbartonshire","2020/21","Child Poverty","Raw",2911
-"West Lothian","2014/15","Child Poverty","Raw",4642
-"West Lothian","2015/16","Child Poverty","Raw",4750
-"West Lothian","2016/17","Child Poverty","Raw",5377
-"West Lothian","2017/18","Child Poverty","Raw",5882
-"West Lothian","2018/19","Child Poverty","Raw",6118
-"West Lothian","2019/20","Child Poverty","Raw",6446
-"West Lothian","2020/21","Child Poverty","Raw",5450
+"Aberdeen City","2014/15","Child Poverty","Raw",9.76991150442478
+"Aberdeen City","2015/16","Child Poverty","Raw",10.9824561403509
+"Aberdeen City","2016/17","Child Poverty","Raw",13.1942028985507
+"Aberdeen City","2017/18","Child Poverty","Raw",15.0890804597701
+"Aberdeen City","2018/19","Child Poverty","Raw",14.7881355932203
+"Aberdeen City","2019/20","Child Poverty","Raw",14.9413407821229
+"Aberdeenshire","2014/15","Child Poverty","Raw",7.51533742331288
+"Aberdeenshire","2015/16","Child Poverty","Raw",8.45807770961145
+"Aberdeenshire","2016/17","Child Poverty","Raw",9.7361963190184
+"Aberdeenshire","2017/18","Child Poverty","Raw",10.4285714285714
+"Aberdeenshire","2018/19","Child Poverty","Raw",10.0530612244898
+"Aberdeenshire","2019/20","Child Poverty","Raw",10.82340862423
+"Angus","2014/15","Child Poverty","Raw",13.0913705583756
+"Angus","2015/16","Child Poverty","Raw",13.4587628865979
+"Angus","2016/17","Child Poverty","Raw",15.8082901554404
+"Angus","2017/18","Child Poverty","Raw",17.4559585492228
+"Angus","2018/19","Child Poverty","Raw",17.6806282722513
+"Angus","2019/20","Child Poverty","Raw",18.2804232804233
+"Argyll and Bute","2014/15","Child Poverty","Raw",13.0300751879699
+"Argyll and Bute","2015/16","Child Poverty","Raw",13.4469696969697
+"Argyll and Bute","2016/17","Child Poverty","Raw",15.0681818181818
+"Argyll and Bute","2017/18","Child Poverty","Raw",17.0076923076923
+"Argyll and Bute","2018/19","Child Poverty","Raw",16.7441860465116
+"Argyll and Bute","2019/20","Child Poverty","Raw",17.5714285714286
+"Clackmannanshire","2014/15","Child Poverty","Raw",16.6888888888889
+"Clackmannanshire","2015/16","Child Poverty","Raw",17.2777777777778
+"Clackmannanshire","2016/17","Child Poverty","Raw",19.3
+"Clackmannanshire","2017/18","Child Poverty","Raw",21.9
+"Clackmannanshire","2018/19","Child Poverty","Raw",21.0224719101124
+"Clackmannanshire","2019/20","Child Poverty","Raw",22.8539325842697
+"Dumfries and Galloway","2014/15","Child Poverty","Raw",16.2616033755274
+"Dumfries and Galloway","2015/16","Child Poverty","Raw",16.9025423728814
+"Dumfries and Galloway","2016/17","Child Poverty","Raw",18.3914893617021
+"Dumfries and Galloway","2017/18","Child Poverty","Raw",20.7435897435897
+"Dumfries and Galloway","2018/19","Child Poverty","Raw",20.1939655172414
+"Dumfries and Galloway","2019/20","Child Poverty","Raw",22.3766233766234
+"Dundee City","2014/15","Child Poverty","Raw",16.3529411764706
+"Dundee City","2015/16","Child Poverty","Raw",16.4873949579832
+"Dundee City","2016/17","Child Poverty","Raw",19.6375
+"Dundee City","2017/18","Child Poverty","Raw",21.7958333333333
+"Dundee City","2018/19","Child Poverty","Raw",21.2583333333333
+"Dundee City","2019/20","Child Poverty","Raw",21.7375
+"East Ayrshire","2014/15","Child Poverty","Raw",17.6556603773585
+"East Ayrshire","2015/16","Child Poverty","Raw",18.1549295774648
+"East Ayrshire","2016/17","Child Poverty","Raw",20.2547169811321
+"East Ayrshire","2017/18","Child Poverty","Raw",22.3175355450237
+"East Ayrshire","2018/19","Child Poverty","Raw",22.5118483412322
+"East Ayrshire","2019/20","Child Poverty","Raw",23.555023923445
+"East Dunbartonshire","2014/15","Child Poverty","Raw",8.34054054054054
+"East Dunbartonshire","2015/16","Child Poverty","Raw",8.53723404255319
+"East Dunbartonshire","2016/17","Child Poverty","Raw",9.55497382198953
+"East Dunbartonshire","2017/18","Child Poverty","Raw",9.609375
+"East Dunbartonshire","2018/19","Child Poverty","Raw",9.15463917525773
+"East Dunbartonshire","2019/20","Child Poverty","Raw",10.3230769230769
+"East Lothian","2014/15","Child Poverty","Raw",12.4391534391534
+"East Lothian","2015/16","Child Poverty","Raw",12.8052631578947
+"East Lothian","2016/17","Child Poverty","Raw",14.0628272251309
+"East Lothian","2017/18","Child Poverty","Raw",14.7371134020619
+"East Lothian","2018/19","Child Poverty","Raw",13.9543147208122
+"East Lothian","2019/20","Child Poverty","Raw",15.4314720812183
+"East Renfrewshire","2014/15","Child Poverty","Raw",8.32065217391304
+"East Renfrewshire","2015/16","Child Poverty","Raw",8.52406417112299
+"East Renfrewshire","2016/17","Child Poverty","Raw",8.93684210526316
+"East Renfrewshire","2017/18","Child Poverty","Raw",9.52849740932642
+"East Renfrewshire","2018/19","Child Poverty","Raw",9.69230769230769
+"East Renfrewshire","2019/20","Child Poverty","Raw",10.4387755102041
+"Falkirk","2014/15","Child Poverty","Raw",14.9151943462898
+"Falkirk","2015/16","Child Poverty","Raw",14.6232394366197
+"Falkirk","2016/17","Child Poverty","Raw",16.3321554770318
+"Falkirk","2017/18","Child Poverty","Raw",17.7659574468085
+"Falkirk","2018/19","Child Poverty","Raw",18.3451957295374
+"Falkirk","2019/20","Child Poverty","Raw",19.3548387096774
+"Fife","2014/15","Child Poverty","Raw",16.1232449297972
+"Fife","2015/16","Child Poverty","Raw",16.4472049689441
+"Fife","2016/17","Child Poverty","Raw",18.2597200622084
+"Fife","2017/18","Child Poverty","Raw",20.2077519379845
+"Fife","2018/19","Child Poverty","Raw",20.2213622291022
+"Fife","2019/20","Child Poverty","Raw",21.4127725856698
+"Glasgow City","2014/15","Child Poverty","Raw",20.934358974359
+"Glasgow City","2015/16","Child Poverty","Raw",21.6710659898477
+"Glasgow City","2016/17","Child Poverty","Raw",24.3340060544904
+"Glasgow City","2017/18","Child Poverty","Raw",28.2392392392392
+"Glasgow City","2018/19","Child Poverty","Raw",28.4707050645482
+"Glasgow City","2019/20","Child Poverty","Raw",29.6019900497512
+"Highland","2014/15","Child Poverty","Raw",13.245
+"Highland","2015/16","Child Poverty","Raw",13.8375
+"Highland","2016/17","Child Poverty","Raw",15.3080808080808
+"Highland","2017/18","Child Poverty","Raw",15.6946564885496
+"Highland","2018/19","Child Poverty","Raw",15.674358974359
+"Highland","2019/20","Child Poverty","Raw",17.2363636363636
+"Inverclyde","2014/15","Child Poverty","Raw",13.8769230769231
+"Inverclyde","2015/16","Child Poverty","Raw",14.8372093023256
+"Inverclyde","2016/17","Child Poverty","Raw",15.748031496063
+"Inverclyde","2017/18","Child Poverty","Raw",16.9126984126984
+"Inverclyde","2018/19","Child Poverty","Raw",17.4365079365079
+"Inverclyde","2019/20","Child Poverty","Raw",17.8951612903226
+"Midlothian","2014/15","Child Poverty","Raw",12.6506024096386
+"Midlothian","2015/16","Child Poverty","Raw",11.9230769230769
+"Midlothian","2016/17","Child Poverty","Raw",13.6976744186047
+"Midlothian","2017/18","Child Poverty","Raw",14.6193181818182
+"Midlothian","2018/19","Child Poverty","Raw",14.3611111111111
+"Midlothian","2019/20","Child Poverty","Raw",15.4475138121547
+"Moray","2014/15","Child Poverty","Raw",12.5939393939394
+"Moray","2015/16","Child Poverty","Raw",12.9272727272727
+"Moray","2016/17","Child Poverty","Raw",15.6524390243902
+"Moray","2017/18","Child Poverty","Raw",16.1728395061728
+"Moray","2018/19","Child Poverty","Raw",16.0993788819876
+"Moray","2019/20","Child Poverty","Raw",17.1125
+"North Ayrshire","2014/15","Child Poverty","Raw",18.5301724137931
+"North Ayrshire","2015/16","Child Poverty","Raw",18.2857142857143
+"North Ayrshire","2016/17","Child Poverty","Raw",20.6943231441048
+"North Ayrshire","2017/18","Child Poverty","Raw",23.0438596491228
+"North Ayrshire","2018/19","Child Poverty","Raw",23.2222222222222
+"North Ayrshire","2019/20","Child Poverty","Raw",25.3946188340807
+"North Lanarkshire","2014/15","Child Poverty","Raw",17.1061806656101
+"North Lanarkshire","2015/16","Child Poverty","Raw",17.6066350710901
+"North Lanarkshire","2016/17","Child Poverty","Raw",19.2936507936508
+"North Lanarkshire","2017/18","Child Poverty","Raw",21.1238095238095
+"North Lanarkshire","2018/19","Child Poverty","Raw",21.0270700636943
+"North Lanarkshire","2019/20","Child Poverty","Raw",22.4398073836276
+"Orkney Islands","2014/15","Child Poverty","Raw",11.5714285714286
+"Orkney Islands","2015/16","Child Poverty","Raw",11.6571428571429
+"Orkney Islands","2016/17","Child Poverty","Raw",14.0857142857143
+"Orkney Islands","2017/18","Child Poverty","Raw",13.8857142857143
+"Orkney Islands","2018/19","Child Poverty","Raw",14.6388888888889
+"Orkney Islands","2019/20","Child Poverty","Raw",14.7777777777778
+"Perth and Kinross","2014/15","Child Poverty","Raw",11.8252032520325
+"Perth and Kinross","2015/16","Child Poverty","Raw",12.4979591836735
+"Perth and Kinross","2016/17","Child Poverty","Raw",13.730612244898
+"Perth and Kinross","2017/18","Child Poverty","Raw",15.4672131147541
+"Perth and Kinross","2018/19","Child Poverty","Raw",15.3073770491803
+"Perth and Kinross","2019/20","Child Poverty","Raw",16.5619834710744
+"Renfrewshire","2014/15","Child Poverty","Raw",11.8825503355705
+"Renfrewshire","2015/16","Child Poverty","Raw",12.24
+"Renfrewshire","2016/17","Child Poverty","Raw",14.2233333333333
+"Renfrewshire","2017/18","Child Poverty","Raw",16.4470198675497
+"Renfrewshire","2018/19","Child Poverty","Raw",16.7326732673267
+"Renfrewshire","2019/20","Child Poverty","Raw",17.9900662251656
+"Scottish Borders","2014/15","Child Poverty","Raw",12.9105263157895
+"Scottish Borders","2015/16","Child Poverty","Raw",13.8210526315789
+"Scottish Borders","2016/17","Child Poverty","Raw",15.3
+"Scottish Borders","2017/18","Child Poverty","Raw",16.9
+"Scottish Borders","2018/19","Child Poverty","Raw",16.8052631578947
+"Scottish Borders","2019/20","Child Poverty","Raw",18.3936170212766
+"Shetland Islands","2014/15","Child Poverty","Raw",6.81395348837209
+"Shetland Islands","2015/16","Child Poverty","Raw",7.45238095238095
+"Shetland Islands","2016/17","Child Poverty","Raw",9.09523809523809
+"Shetland Islands","2017/18","Child Poverty","Raw",10.5952380952381
+"Shetland Islands","2018/19","Child Poverty","Raw",9.21428571428571
+"Shetland Islands","2019/20","Child Poverty","Raw",9.95238095238095
+"South Ayrshire","2014/15","Child Poverty","Raw",15.4044943820225
+"South Ayrshire","2015/16","Child Poverty","Raw",15.0842696629213
+"South Ayrshire","2016/17","Child Poverty","Raw",17.5762711864407
+"South Ayrshire","2017/18","Child Poverty","Raw",18.8863636363636
+"South Ayrshire","2018/19","Child Poverty","Raw",19.4090909090909
+"South Ayrshire","2019/20","Child Poverty","Raw",19.9252873563218
+"South Lanarkshire","2014/15","Child Poverty","Raw",14.1327272727273
+"South Lanarkshire","2015/16","Child Poverty","Raw",14.0327868852459
+"South Lanarkshire","2016/17","Child Poverty","Raw",15.5634057971014
+"South Lanarkshire","2017/18","Child Poverty","Raw",17.2115732368897
+"South Lanarkshire","2018/19","Child Poverty","Raw",16.7104316546763
+"South Lanarkshire","2019/20","Child Poverty","Raw",17.6960431654676
+"Stirling","2014/15","Child Poverty","Raw",12.0258064516129
+"Stirling","2015/16","Child Poverty","Raw",11.5935483870968
+"Stirling","2016/17","Child Poverty","Raw",13.0974025974026
+"Stirling","2017/18","Child Poverty","Raw",14.1806451612903
+"Stirling","2018/19","Child Poverty","Raw",14.0584415584416
+"Stirling","2019/20","Child Poverty","Raw",15.9078947368421
+"Scotland","2014/15","Child Poverty","Raw",14.0593006686397
+"Scotland","2015/16","Child Poverty","Raw",14.4218971727977
+"Scotland","2016/17","Child Poverty","Raw",16.2406539509537
+"Scotland","2017/18","Child Poverty","Raw",17.9904274991842
+"Scotland","2018/19","Child Poverty","Raw",17.8834129396439
+"Scotland","2019/20","Child Poverty","Raw",18.9566023334424
+"West Dunbartonshire","2014/15","Child Poverty","Raw",16.343949044586
+"West Dunbartonshire","2015/16","Child Poverty","Raw",16.1962025316456
+"West Dunbartonshire","2016/17","Child Poverty","Raw",18.8291139240506
+"West Dunbartonshire","2017/18","Child Poverty","Raw",22.1974522292994
+"West Dunbartonshire","2018/19","Child Poverty","Raw",22.0897435897436
+"West Dunbartonshire","2019/20","Child Poverty","Raw",23
+"West Lothian","2014/15","Child Poverty","Raw",13.2250712250712
+"West Lothian","2015/16","Child Poverty","Raw",13.4560906515581
+"West Lothian","2016/17","Child Poverty","Raw",15.1892655367232
+"West Lothian","2017/18","Child Poverty","Raw",16.569014084507
+"West Lothian","2018/19","Child Poverty","Raw",17.2338028169014
+"West Lothian","2019/20","Child Poverty","Raw",18.3125
 "Aberdeen City","2011/12-2013/14","Attainment","Raw",5.36489795918367
 "Aberdeen City","2012/13-2014/15","Attainment","Raw",5.37877551020408
 "Aberdeen City","2013/14-2015/16","Attainment","Raw",5.43591836734694

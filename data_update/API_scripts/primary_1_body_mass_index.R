@@ -45,4 +45,4 @@ final_bmi_data <- rbind(p1_bmi_data, scotland_totals) %>%
          Type = "Raw") %>%
   select(CPP, Year, Indicator, Type, value)
 
-write.csv(final_bmi_data, file = "data_update/data/p1_bmi_data.csv", row.names = FALSE)
+write.csv(final_bmi_data, file = "data_update/data/p1_body_mass_index_cpp.csv", row.names = FALSE)

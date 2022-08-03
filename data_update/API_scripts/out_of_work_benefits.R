@@ -5,13 +5,13 @@ library(statxplorer) #available here: https://github.com/houseofcommonslibrary/s
 library(magrittr)
 library(dplyr)
 
-population <- read.csv("data_update/data/working_age_population.csv")
+population <- read.csv("data_update/data/working_age_population_cpp.csv")
 population$Year <- as.numeric(population$Year)
 
 statxplorer::load_api_key("data_update/txt/statxpl_apikey.txt")
 
 #data from 2019 onwards :
-results_recent <- statxplorer::fetch_table(filename = "data_update/json/oowb_combinations_08_22.json")
+results_recent <- statxplorer::fetch_table(filename = "data_update/json/oowb_08_22.json")
 #data from 2013-2018:
 results_historic <- statxplorer::fetch_table(filename = "data_update/json/oowb_historic_08_22.json")
 
@@ -46,4 +46,4 @@ oowb_proportions <- left_join(oowb_count, population, by = c("Year", "CPP")) %>%
   select(CPP, Year, Indicator, Type, value) %>%
   arrange(CPP, Year)
 
-write.csv(oowb_proportions, "data_update/data/oowb_data.csv", row.names = FALSE)
+write.csv(oowb_proportions, "data_update/data/out_of_work_benefits_cpp.csv", row.names = FALSE)

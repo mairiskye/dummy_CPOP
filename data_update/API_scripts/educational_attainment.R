@@ -78,7 +78,7 @@ s12 <- rbind(s12_without_totals, scotland_totals) %>%
   dplyr::select(CPP, Year, Indicator, Type, value) %>%
   dplyr::arrange(CPP)
   
-write.csv(s01, file = "data_update/data/edu_attainment_dz_data.csv", row.names = FALSE)
-write.csv(s02, file = "data_update/data/edu_attainment_iz_data.csv", row.names = FALSE)
-write.csv(s12, file = "data_update/data/edu_attainment_cpp_data.csv", row.names = FALSE)
+write.csv(s01, file = "data_update/data/educational_attainment_dz.csv", row.names = FALSE)
+write.csv(s02, file = "data_update/data/educational_attainment_iz.csv", row.names = FALSE)
+write.csv(s12, file = "data_update/data/educational_attainment_cpp.csv", row.names = FALSE)
 

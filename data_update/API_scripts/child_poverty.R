@@ -6,7 +6,7 @@ library(magrittr)
 library(dplyr)
 
 #read in denominator data and reformat years to match numerator (api output)
-child_population <- read.csv("data_update/data/children_population.csv")
+child_population <- read.csv("data_update/data/children_population_cpp.csv")
 child_population$Year <- as.character(paste0(child_population$Year - 1,"/", child_population$Year - 2000))
 child_population$children_population <- as.numeric(child_population$children_population)
 

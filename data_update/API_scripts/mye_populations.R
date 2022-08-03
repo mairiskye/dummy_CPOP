@@ -127,5 +127,5 @@ names(children_population_with_totals) <- c("Year", "CPP", "children_population"
 
 #WRITE TWO DATASETS TO CSV----------------------------------
 
-write.csv(wa_population_with_totals, "data_update/data/working_age_population.csv", row.names = FALSE)
-write.csv(children_population_with_totals, "data_update/data/children_population.csv", row.names = FALSE)
+write.csv(wa_population_with_totals, "data_update/data/working_age_population_cpp.csv", row.names = FALSE)
+write.csv(children_population_with_totals, "data_update/data/children_population_cpp.csv", row.names = FALSE)

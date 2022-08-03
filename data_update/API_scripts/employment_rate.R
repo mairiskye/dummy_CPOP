@@ -83,4 +83,4 @@ final_employment_data <- rbind(employment_data_la, scotland_totals) %>%
   select(CPP, Year, Indicator, Type, value)
   
 #writes final data to csv file in cloud directory for exporting
-write.csv(final_employment_data, file = "data_update/data/employment_data.csv", row.names = FALSE)
+write.csv(final_employment_data, file = "data_update/data/employment_rate_cpp.csv", row.names = FALSE)

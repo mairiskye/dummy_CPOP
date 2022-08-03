@@ -3,7 +3,7 @@ pared back CPOP dashboard for purposes of demonstrating the usability/readabilit
 
 # Dashboard Structure ---------------------
 
-The dashboard is composed with the three standard shiny scripts (global.R, server.R and ui.R), the global script reads in data from the folder 'dashboard_data/' in the form of one master data which has time series data for six indicators which can be obtained from APIs
+The dashboard is composed with the three standard shiny scripts (global.R, server.R and ui.R), the global script reads in data from the folder 'cpop_data/' in the form of one master data which has time series data for six indicators which can be obtained from APIs
   (Healthy Birthweight, Primary 1 Body Mass Index, Child Poverty, Attainment, Employment Rate, Out of Work Benefits). For sake of simplicity this data only CPP (local authority) level data has been used.
 
 This dashboard is supposed to mirror the content of the CPP over time tab of the original CPP dashboard.
@@ -16,7 +16,7 @@ The 'data_update/API_scripts/' folder contains seven scripts; one for each indic
 ('data_update/API_scripts/mye_populations.R')
 This must be run first, so that the csv output it writes to 'data_update/data/' is available to be read in as required to other scripts. After that, scripts within 'data_update/API_scripts/' can be run in any particular order. Every time these are run, they overwrite pre-existing csv in 'data_update/data/' with the latest data.
 
-Once all API scripts have been run, generating csv data in 'data_update/data/', the file 'data_update/master_data.R' can be run which combines the individuals csvs for each indicator into one csv which is written to dashboard_data/ Where it can be read in to the global.R script.
+Once all API scripts have been run, generating csv data in 'data_update/data/', the file 'data_update/master_data.R' can be run which combines the individuals csvs for each indicator into one csv which is written to cpop_data/ Where it can be read in to the global.R script.
 Every time the master_data.R script is run it creates a csv, which incorporates the day it is run within it's file name. In practice this means that, we can keep an archive of masterdata.csv files, but does mean that the filename in the global script has to be manually updated. This is also a protective measure to prevent the update being implemented before checking that nothing unexpected has been returned. 
 
 There is also a look_ups folder available which contains csv files which can be used to match geography codes to names where this is not done by the API. Codes are also used for combining datasets with population data, since, at IZ and DZ level, names are not distinct identifiers.

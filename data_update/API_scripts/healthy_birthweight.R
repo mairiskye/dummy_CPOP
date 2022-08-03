@@ -63,4 +63,4 @@ final_bweight_data$CPP[final_bweight_data$CPP == "City of Edinburgh"] <- "Edinbu
 final_bweight_data$CPP[final_bweight_data$CPP == "Na h-Eileanan Siar"] <- "Eilean Siar"
 
 #save dataframe as csv in "data" folder
-write.csv(final_bweight_data, "data_update/data/birthweight_data.csv", row.names = FALSE)
+write.csv(final_bweight_data, "data_update/data/healthy_birthweight_cpp.csv", row.names = FALSE)

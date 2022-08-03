@@ -1,5 +1,5 @@
 #sidebar-----------------------------------------
-
+#creates three drop down selection components
 sidebar <- dashboardSidebar(
   selectInput("LA1", 
               "Select CPP", 

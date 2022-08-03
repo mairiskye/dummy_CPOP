@@ -20,10 +20,12 @@ shinyServer(function(input, output, session) {
       dplyr::select(CPP, Year, value)
   })
   
-#determines y axis upper and lower limits using all CPP data for the selected indicator
+  #determines y axis upper and lower limits using all CPP data for the selected indicator
   #   creates a two element vector (min, max)
   indicator_limits <- reactive({
-    indicator_data <- CPPdta %>% filter(Indicator %in% input$indicator)
+    indicator_data <- CPPdta %>% 
+      dplyr::filter(CPP %in% c(input$LA1, input$CompLA1)) %>%
+      dplyr::filter(Indicator %in% input$indicator)
     min_value <- min(indicator_data$value, na.rm = TRUE)
     max_value <- max(indicator_data$value, na.rm = TRUE)
     padding <- (max_value - min_value) * 0.15

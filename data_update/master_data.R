@@ -5,4 +5,6 @@ employment_dta <- read.csv("data_update/data/employment_data.csv")
 oowb_dta <- read.csv("data_update/data/oowb_data.csv")
 p1_bmi_dta <- read.csv("data_update/data/p1_bmi_data.csv")
 masterdata <- rbind(bweight_dta, childpov_dta, attnment_dta, employment_dta, oowb_dta, p1_bmi_dta)
-write.csv(masterdata, file = "dashboard_data/masterdata.csv", row.names = FALSE)
+
+currentDate <- format(Sys.Date(), "%d_%m_%y")
+write.csv(masterdata, file = paste0("dashboard_data/masterdata_",currentDate,".csv"), row.names = FALSE)

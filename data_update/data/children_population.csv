@@ -1,0 +1,331 @@
+"Year","CPP","children_population"
+2011,"Aberdeen City",32200
+2012,"Aberdeen City",32900
+2013,"Aberdeen City",33100
+2014,"Aberdeen City",33500
+2015,"Aberdeen City",33900
+2016,"Aberdeen City",34200
+2017,"Aberdeen City",34500
+2018,"Aberdeen City",34800
+2019,"Aberdeen City",35400
+2020,"Aberdeen City",35800
+2011,"Aberdeenshire",47500
+2012,"Aberdeenshire",47800
+2013,"Aberdeenshire",48100
+2014,"Aberdeenshire",48700
+2015,"Aberdeenshire",48900
+2016,"Aberdeenshire",48900
+2017,"Aberdeenshire",48900
+2018,"Aberdeenshire",49000
+2019,"Aberdeenshire",49000
+2020,"Aberdeenshire",48700
+2011,"Angus",20200
+2012,"Angus",20000
+2013,"Angus",19800
+2014,"Angus",19700
+2015,"Angus",19700
+2016,"Angus",19400
+2017,"Angus",19300
+2018,"Angus",19300
+2019,"Angus",19100
+2020,"Angus",18900
+2011,"Argyll and Bute",14400
+2012,"Argyll and Bute",14100
+2013,"Argyll and Bute",13800
+2014,"Argyll and Bute",13600
+2015,"Argyll and Bute",13300
+2016,"Argyll and Bute",13200
+2017,"Argyll and Bute",13200
+2018,"Argyll and Bute",13000
+2019,"Argyll and Bute",12900
+2020,"Argyll and Bute",12600
+2011,"Clackmannanshire",9300
+2012,"Clackmannanshire",9200
+2013,"Clackmannanshire",9200
+2014,"Clackmannanshire",9100
+2015,"Clackmannanshire",9000
+2016,"Clackmannanshire",9000
+2017,"Clackmannanshire",9000
+2018,"Clackmannanshire",9000
+2019,"Clackmannanshire",8900
+2020,"Clackmannanshire",8900
+2011,"Dumfries and Galloway",25100
+2012,"Dumfries and Galloway",24600
+2013,"Dumfries and Galloway",24300
+2014,"Dumfries and Galloway",23900
+2015,"Dumfries and Galloway",23700
+2016,"Dumfries and Galloway",23600
+2017,"Dumfries and Galloway",23500
+2018,"Dumfries and Galloway",23400
+2019,"Dumfries and Galloway",23200
+2020,"Dumfries and Galloway",23100
+2011,"Dundee City",23700
+2012,"Dundee City",23700
+2013,"Dundee City",23800
+2014,"Dundee City",23700
+2015,"Dundee City",23800
+2016,"Dundee City",23800
+2017,"Dundee City",24000
+2018,"Dundee City",24000
+2019,"Dundee City",24000
+2020,"Dundee City",24000
+2011,"East Ayrshire",21600
+2012,"East Ayrshire",21600
+2013,"East Ayrshire",21400
+2014,"East Ayrshire",21200
+2015,"East Ayrshire",21200
+2016,"East Ayrshire",21300
+2017,"East Ayrshire",21200
+2018,"East Ayrshire",21100
+2019,"East Ayrshire",21100
+2020,"East Ayrshire",20900
+2011,"East Dunbartonshire",18600
+2012,"East Dunbartonshire",18500
+2013,"East Dunbartonshire",18300
+2014,"East Dunbartonshire",18400
+2015,"East Dunbartonshire",18500
+2016,"East Dunbartonshire",18800
+2017,"East Dunbartonshire",19100
+2018,"East Dunbartonshire",19200
+2019,"East Dunbartonshire",19400
+2020,"East Dunbartonshire",19500
+2011,"East Lothian",18700
+2012,"East Lothian",18800
+2013,"East Lothian",18700
+2014,"East Lothian",18800
+2015,"East Lothian",18900
+2016,"East Lothian",19000
+2017,"East Lothian",19100
+2018,"East Lothian",19400
+2019,"East Lothian",19700
+2020,"East Lothian",19700
+2011,"East Renfrewshire",17900
+2012,"East Renfrewshire",17900
+2013,"East Renfrewshire",18000
+2014,"East Renfrewshire",18200
+2015,"East Renfrewshire",18400
+2016,"East Renfrewshire",18700
+2017,"East Renfrewshire",19000
+2018,"East Renfrewshire",19300
+2019,"East Renfrewshire",19500
+2020,"East Renfrewshire",19600
+2011,"Edinburgh, City of",72500
+2012,"Edinburgh, City of",73400
+2013,"Edinburgh, City of",74400
+2014,"Edinburgh, City of",75300
+2015,"Edinburgh, City of",76100
+2016,"Edinburgh, City of",77400
+2017,"Edinburgh, City of",78100
+2018,"Edinburgh, City of",78500
+2019,"Edinburgh, City of",79100
+2020,"Edinburgh, City of",79200
+2011,"Eilean Siar",4700
+2012,"Eilean Siar",4600
+2013,"Eilean Siar",4500
+2014,"Eilean Siar",4400
+2015,"Eilean Siar",4300
+2016,"Eilean Siar",4300
+2017,"Eilean Siar",4400
+2018,"Eilean Siar",4300
+2019,"Eilean Siar",4300
+2020,"Eilean Siar",4100
+2011,"Falkirk",28400
+2012,"Falkirk",28400
+2013,"Falkirk",28300
+2014,"Falkirk",28300
+2015,"Falkirk",28300
+2016,"Falkirk",28400
+2017,"Falkirk",28300
+2018,"Falkirk",28200
+2019,"Falkirk",28100
+2020,"Falkirk",27900
+2011,"Fife",64500
+2012,"Fife",64400
+2013,"Fife",64200
+2014,"Fife",64100
+2015,"Fife",64100
+2016,"Fife",64400
+2017,"Fife",64300
+2018,"Fife",64500
+2019,"Fife",64600
+2020,"Fife",64200
+2011,"Glasgow City",95800
+2012,"Glasgow City",96300
+2013,"Glasgow City",96400
+2014,"Glasgow City",96700
+2015,"Glasgow City",97500
+2016,"Glasgow City",98500
+2017,"Glasgow City",99100
+2018,"Glasgow City",99900
+2019,"Glasgow City",100700
+2020,"Glasgow City",100500
+2011,"Highland",41300
+2012,"Highland",40900
+2013,"Highland",40500
+2014,"Highland",40100
+2015,"Highland",40000
+2016,"Highland",40000
+2017,"Highland",39600
+2018,"Highland",39300
+2019,"Highland",39000
+2020,"Highland",38500
+2011,"Inverclyde",13700
+2012,"Inverclyde",13400
+2013,"Inverclyde",13200
+2014,"Inverclyde",13100
+2015,"Inverclyde",13000
+2016,"Inverclyde",12900
+2017,"Inverclyde",12700
+2018,"Inverclyde",12600
+2019,"Inverclyde",12600
+2020,"Inverclyde",12400
+2011,"Midlothian",15700
+2012,"Midlothian",15900
+2013,"Midlothian",16100
+2014,"Midlothian",16400
+2015,"Midlothian",16600
+2016,"Midlothian",16900
+2017,"Midlothian",17200
+2018,"Midlothian",17600
+2019,"Midlothian",18000
+2020,"Midlothian",18100
+2011,"Moray",16900
+2012,"Moray",16700
+2013,"Moray",16600
+2014,"Moray",16600
+2015,"Moray",16500
+2016,"Moray",16500
+2017,"Moray",16400
+2018,"Moray",16200
+2019,"Moray",16100
+2020,"Moray",16000
+2011,"North Ayrshire",24400
+2012,"North Ayrshire",24200
+2013,"North Ayrshire",23700
+2014,"North Ayrshire",23400
+2015,"North Ayrshire",23200
+2016,"North Ayrshire",23100
+2017,"North Ayrshire",22900
+2018,"North Ayrshire",22800
+2019,"North Ayrshire",22500
+2020,"North Ayrshire",22300
+2011,"North Lanarkshire",64700
+2012,"North Lanarkshire",64500
+2013,"North Lanarkshire",63900
+2014,"North Lanarkshire",63600
+2015,"North Lanarkshire",63100
+2016,"North Lanarkshire",63300
+2017,"North Lanarkshire",63000
+2018,"North Lanarkshire",63000
+2019,"North Lanarkshire",62800
+2020,"North Lanarkshire",62300
+2011,"Orkney Islands",3600
+2012,"Orkney Islands",3600
+2013,"Orkney Islands",3500
+2014,"Orkney Islands",3500
+2015,"Orkney Islands",3500
+2016,"Orkney Islands",3500
+2017,"Orkney Islands",3500
+2018,"Orkney Islands",3500
+2019,"Orkney Islands",3600
+2020,"Orkney Islands",3600
+2011,"Perth and Kinross",25100
+2012,"Perth and Kinross",25000
+2013,"Perth and Kinross",24600
+2014,"Perth and Kinross",24500
+2015,"Perth and Kinross",24600
+2016,"Perth and Kinross",24500
+2017,"Perth and Kinross",24500
+2018,"Perth and Kinross",24400
+2019,"Perth and Kinross",24400
+2020,"Perth and Kinross",24200
+2011,"Renfrewshire",30600
+2012,"Renfrewshire",30400
+2013,"Renfrewshire",30100
+2014,"Renfrewshire",30000
+2015,"Renfrewshire",29800
+2016,"Renfrewshire",30000
+2017,"Renfrewshire",30000
+2018,"Renfrewshire",30200
+2019,"Renfrewshire",30300
+2020,"Renfrewshire",30200
+2011,"Scotland",916000
+2012,"Scotland",915000
+2013,"Scotland",911400
+2014,"Scotland",911200
+2015,"Scotland",912300
+2016,"Scotland",916100
+2017,"Scotland",917500
+2018,"Scotland",919300
+2019,"Scotland",921200
+2020,"Scotland",917100
+2011,"Scottish Borders",19300
+2012,"Scottish Borders",19100
+2013,"Scottish Borders",19000
+2014,"Scottish Borders",19100
+2015,"Scottish Borders",19000
+2016,"Scottish Borders",19000
+2017,"Scottish Borders",19000
+2018,"Scottish Borders",19000
+2019,"Scottish Borders",19000
+2020,"Scottish Borders",18800
+2011,"Shetland Islands",4500
+2012,"Shetland Islands",4400
+2013,"Shetland Islands",4400
+2014,"Shetland Islands",4300
+2015,"Shetland Islands",4300
+2016,"Shetland Islands",4200
+2017,"Shetland Islands",4200
+2018,"Shetland Islands",4200
+2019,"Shetland Islands",4200
+2020,"Shetland Islands",4200
+2011,"South Ayrshire",18400
+2012,"South Ayrshire",18300
+2013,"South Ayrshire",18100
+2014,"South Ayrshire",17800
+2015,"South Ayrshire",17800
+2016,"South Ayrshire",17800
+2017,"South Ayrshire",17700
+2018,"South Ayrshire",17600
+2019,"South Ayrshire",17600
+2020,"South Ayrshire",17400
+2011,"South Lanarkshire",55400
+2012,"South Lanarkshire",55400
+2013,"South Lanarkshire",55000
+2014,"South Lanarkshire",54900
+2015,"South Lanarkshire",55000
+2016,"South Lanarkshire",54900
+2017,"South Lanarkshire",55200
+2018,"South Lanarkshire",55300
+2019,"South Lanarkshire",55600
+2020,"South Lanarkshire",55600
+2011,"Stirling",15900
+2012,"Stirling",15900
+2013,"Stirling",15600
+2014,"Stirling",15500
+2015,"Stirling",15500
+2016,"Stirling",15500
+2017,"Stirling",15400
+2018,"Stirling",15500
+2019,"Stirling",15400
+2020,"Stirling",15200
+2011,"West Dunbartonshire",16000
+2012,"West Dunbartonshire",15900
+2013,"West Dunbartonshire",15800
+2014,"West Dunbartonshire",15700
+2015,"West Dunbartonshire",15700
+2016,"West Dunbartonshire",15800
+2017,"West Dunbartonshire",15800
+2018,"West Dunbartonshire",15700
+2019,"West Dunbartonshire",15600
+2020,"West Dunbartonshire",15500
+2011,"West Lothian",35400
+2012,"West Lothian",35200
+2013,"West Lothian",35000
+2014,"West Lothian",35100
+2015,"West Lothian",35100
+2016,"West Lothian",35300
+2017,"West Lothian",35400
+2018,"West Lothian",35500
+2019,"West Lothian",35500
+2020,"West Lothian",35200

@@ -18,8 +18,9 @@ library(shinyjs)
 library(shinyWidgets)
 library(formattable)
 library(stringr)
+library(plotly)
 
-CPPdta <- read_csv("newdata/masterdata.csv")
+CPPdta <- read_csv("data_update/final_data/masterdata_03_08_22.csv")
 Metadata <- read_csv("data/Metadata.csv")
 
 #global variables extracted from server script
@@ -28,7 +29,9 @@ indicators <- c("Healthy Birthweight", "Primary 1 Body Mass Index", "Child Pover
                    "Out of Work Benefits")
 
 #Create list of CPP names for use in UI
-CPPNames <- unique(CPPdta$CPP)
+CPPNames <- unique(CPPdta$CPP) %>%
+  sort()
+CPPNames[! CPPNames %in% "Scotland"]
 
 plot_with_metadata_pop_up <- function (metadata, plotName, indicatorTitle, plc = "top", plotHeight = "25vh"){
   indicatorMetadata <- filter(metadata, Indicator == indicatorTitle)

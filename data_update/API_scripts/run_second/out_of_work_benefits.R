@@ -8,7 +8,7 @@ library(dplyr)
 population <- read.csv("data_update/data/working_age_population_cpp.csv")
 population$Year <- as.numeric(population$Year)
 
-statxplorer::load_api_key("data_update/txt/statxpl_apikey.txt")
+statxplorer::load_api_key("data_update/API_keys/statxpl_apikey.txt")
 
 #data from 2019 onwards :
 results_recent <- statxplorer::fetch_table(filename = "data_update/json/oowb_08_22.json")

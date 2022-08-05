@@ -8,9 +8,6 @@ library(stringr)
 library(utils)
 library(dplyr)
 
-#controls package dependencies - automatically updated
-#renv::init()
-
 #STEP 1: REQUEST annual population survey data from NOMIS API----------------------------------
 
 #obtains 'Aged 16-64 in Employment - All : All People' dataset for all years for all Scottish councils
@@ -81,6 +78,3 @@ scotland_totals <- employment_data_la %>%
 final_employment_data <- rbind(employment_data_la, scotland_totals) %>%
   mutate(Indicator = "Employment Rate", Type = "Raw") %>%
   select(CPP, Year, Indicator, Type, value)
-  
-#writes final data to csv file in cloud directory for exporting
-write.csv(final_employment_data, file = "data_update/data/employment_rate_cpp.csv", row.names = FALSE)

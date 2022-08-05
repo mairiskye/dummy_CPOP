@@ -5,8 +5,9 @@ library(dplyr)  #
 library(plotly)
 library(ggplot2)
 
-#CPPdta <- readr::read_csv("data_update/final_data/masterdata_03_08_22.csv")
-CPPdta <- readr::read_csv("cpop_data/masterdata_03_08_22.csv")
+#MASTERDATA - update file name manually for data update.
+CPPdta <- readr::read_csv("cpop_data/masterdata_05_08_22.csv")
+
 Metadata <- readr::read_csv("cpop_data/Metadata.csv")
 
 #global variables extracted from server script
@@ -15,7 +16,12 @@ indicators <- c("Healthy Birthweight", "Primary 1 Body Mass Index", "Child Pover
                    "Out of Work Benefits")
 
 #Create list of CPP names for use in UI drop down selection
-CPPNames <- unique(CPPdta$CPP) %>%
-  sort()
-CPPNames[! CPPNames %in% "Scotland"]
+CPPNames <- c("Aberdeen City","Aberdeenshire","Angus","Argyll and Bute",
+              "Clackmannanshire","Dumfries and Galloway","Dundee City","East Ayrshire",
+              "East Dunbartonshire","East Lothian","East Renfrewshire","Edinburgh, City of",
+              "Eilean Siar", "Glasgow City","Highland","Inverclyde","Midlothian",
+              "Moray","North Ayrshire","North Lanarkshire","Orkney Islands","Perth and Kinross",
+              "Renfrewshire","Scottish Borders","Shetland Islands","South Ayrshire",
+              "South Lanarkshire","Stirling","West Dunbartonshire","West Lothian")
+
 

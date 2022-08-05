@@ -1,52 +1,81 @@
-# dummy_CPOP
-pared back CPOP dashboard for purposes of demonstrating the usability/readability of data generated from API queries
+## Introduction
 
-# Dashboard Structure ---------------------
+This repository demonstrates proposed improvements to the data pipeline for the CPOP dashboard. It obtains Local Authority level data for six indicators from APIs and feeds these into a mock-up of the 'CPP Over Time' tab of the original dashboard. 
 
-The dashboard is composed with the three standard shiny scripts (global.R, server.R and ui.R), the global script reads in data from the folder 'cpop_data/' in the form of one master data which has time series data for six indicators which can be obtained from APIs
-  (Healthy Birthweight, Primary 1 Body Mass Index, Child Poverty, Attainment, Employment Rate, Out of Work Benefits). For sake of simplicity this data only CPP (local authority) level data has been used.
+## Dashboard Structure
 
-This dashboard is supposed to mirror the content of the CPP over time tab of the original CPP dashboard.
+The dashboard itself is created from three standard shiny scripts `global.R` `server.R` and `ui.R`. The data required is read into the  `global.R` from the **cpop_data** folder.
 
-# DATA UPDATE: file structure -----------------------------------------
+The **data_update/API_queries** folder contains a series of scripts which query three APIs for six indicator (and two indicator denominator) datasets (as outlined below) at Local Authority level.
 
-The 'data_update/' folder contains almost all scripts and files necessary to update this dashboard on an annual basis. Data obtained from statxplore will involve one manual step per dataset(see below).
 
-The 'data_update/API_scripts/' folder contains seven scripts; one for each indicator and one which generates population data for use as denominator in rate calculations for out of work benefits and child poverty
-('data_update/API_scripts/mye_populations.R')
-This must be run first, so that the csv output it writes to 'data_update/data/' is available to be read in as required to other scripts. After that, scripts within 'data_update/API_scripts/' can be run in any particular order. Every time these are run, they overwrite pre-existing csv in 'data_update/data/' with the latest data.
+| Indicator | Dataset | Source | API | Cusom Package required? | Script Name
+| ---       | ---     | ---    | --- |    --- | --- |
+|Healthy Birthweight | Appropriate Birthweight for Gestational Age |[PHS](https://www.opendata.nhs.scot/dataset/births-in-scottish-hospitals/resource/a5d4de3f-e340-455f-b4e4-e26321d09207) | PHS Open Data API | [phsopendata()](https://github.com/Public-Health-Scotland/phsopendata) | run_second/healthy_birthweight.R |
+|Primary 1 Body Mass Index | Clinical BMI at Council Area Level | [PHS](https://www.opendata.nhs.scot/dataset/primary-1-body-mass-index-bmi-statistics/resource/4a3daa0f-1580-4a59-ac9e-64d9a31a4429) | PHS Open Data API | [phsopendata()](https://github.com/Public-Health-Scotland/phsopendata) | run_second/primary_1_body_mass_index.R |
+|Child Poverty | Numerator: Children in Low Income Families (Relative Low Income) | [Stat-Xplore](https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml) | Stat-Xplore API |  [statxplorer()](https://github.com/houseofcommonslibrary/statxplorer) | run_second/child_poverty.R |
+| | Denominator: Mid-Year Population Estimate (children aged 0-15) |[Nomis](https://www.nomisweb.co.uk/datasets/apsnew) | [Nomis API](https://www.nomisweb.co.uk/api/v01/help) | _none_ | run_first/child_and_working_age_populations.R |
+|Educational Attainment | Educational Attainment of School Leavers | [statistics.gov.scot](https://statistics.gov.scot/data/educational-attainment-of-school-leavers) | Statistics.gov.scot API | _none_ | run_second/educational_attainment.R |
+|Employment Rate | Annual Population Survey - Employment Rate (16-64) | [Nomis](https://www.nomisweb.co.uk/datasets/apsnew) | [Nomis API](https://www.nomisweb.co.uk/api/v01/help) | _none_ | run_second/employment_rate.R |
+|Out of Work Benefits | Numerator: Benefit Combinations (Out of Work) | [Stat-Xplore](https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml) | Stat-Xplore API | [statxplorer()](https://github.com/houseofcommonslibrary/statxplorer) | run_second/out_of_work_benefirs.R |
+| | Denominator: Mid-Year Population Estimate (Working age 16-64) |[Nomis](https://www.nomisweb.co.uk/datasets/apsnew) | [Nomis API](https://www.nomisweb.co.uk/api/v01/help) | _none_ | run_first/child_and_working_age_populations.R |
 
-Once all API scripts have been run, generating csv data in 'data_update/data/', the file 'data_update/master_data.R' can be run which combines the individuals csvs for each indicator into one csv which is written to cpop_data/ Where it can be read in to the global.R script.
-Every time the master_data.R script is run it creates a csv, which incorporates the day it is run within it's file name. In practice this means that, we can keep an archive of masterdata.csv files, but does mean that the filename in the global script has to be manually updated. This is also a protective measure to prevent the update being implemented before checking that nothing unexpected has been returned. 
+Within the **data_update/API_queries** folder, the script are split into two folders (**Run first**, and **Run second**). This is because the first scripts obtain population data which is required by some in the second set as denominator values. 
 
-There is also a look_ups folder available which contains csv files which can be used to match geography codes to names where this is not done by the API. Codes are also used for combining datasets with population data, since, at IZ and DZ level, names are not distinct identifiers.
+### Other Folders (helpers)
 
-# API Script Requirements ------------------
-Three custom packages have been used in the API scripts. Find guidance regarding import on respective github links.
-  1. nomisr (https://github.com/ropensci/nomisr) 
-      NOTE: this package is only used to query the metadata of the dataset       to identify necessary parameter codes, otherwise response is too          large. This process has been kept in the script for the sake of           clarity/reproducibility, but can be removed ultimately if this            package proves problematic. 
-  2. statxplorer (https://github.com/houseofcommonslibrary/statxplorer) 
-    It is necessary to use this package at this stage since the response      using a simple GET request is very difficult to parse.
-  3. phsopendata (https://github.com/Public-Health-Scotland/phsopendata)
-    Used to query public health scotland open data  
-    
-For the most part the API scripts should be self-sufficient since, where possible, they query the latest data, and (in the case of statxplore) an api key is available in a text file (see 'data_update/txt/statxpl_apikey.txt'). However, for the two scripts which query the statxplore API (Child Poverty, Out of Work Benefits) a json file is required. This can be generated using the statxplore table generator interface (detailed guide below) but dates must be chosen from those available. This means a new json file must be created for every update to reflect new years available, which then must be saved within 'data_update/json/' ensuring 'mm_yy' is included in file name. The Child Poverty and OOWB scripts will have to be manually updated to reflect this. A folder (data_update/json/historic_json/' has been created to store the outdated queries).
+#### make_nomis_uris
+The **data_update/make_nomis_uris** folder contains scripts which programatically extract parameter IDs from NOMIS dataset metadata which must be appended to the query URI (without which the response from the API is too large and is rate-limited at 25,000 observations). These script use the `nomir` package which can be found on [git hub](https://github.com/ropensci/nomisr). Any script which queries NOMIS has a corresponding make_nomis_uri script, but this is available solely to troubleshoot any problems should the API request return an error, and the data update process is not dependant on these.
 
-#get statxplore json files: out of work benefits
-1. Visit this page (https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml) and log-in/sign up.
-2. Under Datasets, under Benefit Combinations click Benefit Combinations - Data from February 2019, and click the blue 'New Table' button above.
-3. Under Geography, click 'National_Regional_LA_OAs', then 'Great Britain'. Click on the small arrow to the RIGHT of 'Scotland and select 'Local Authority'. This should select all Scottish LAs. Click the 'Row' button above to add to table.
-4. Click on Quarter and select checkboxes for all 'May' quarters available. Click the 'Column' button above to add to table.
-5. Under 'Benefit Groups' click on 'Benefit Combinations (Out of Work)'. Click the button to the RIGHT of this and select again 'Benefit Combinations (Out of Work)'. This will check all benefit categories. IT IS IMPORTANT TO DESELECT/UNCHECK THE BOX NEXT TO 'not on out of work benefits'. Then click the 'Column' button from the top again to add to table. Should you be warned about entering large table mode, select okay.
-6. In the top right corner there is a select drop down menu, select 'Open Data API Query (.json)' then press go. This will download a json file.
-7. Rename this file 'oowb_08_22.json' (with the relevant month/day) and move/save to 'data_update/json/' file. Moving older json to historic_json after.
-(The above steps can be repeated to obtain oowb_historic data by clicking on 'Benefit Combinations - Data to November 2018' at step 2).
+#### look_ups
+Some APIs return an S-Code for geography and some return council names. In order to ultimately match these, a geography code look-up csv is read in and joined to datasets which lack geography names. 
 
-#get statxplore json files: child poverty
-1. Visit this page (https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml) and log-in/sign up.
-2. Under Datasets, under 'Children in Low Income Families' click 'Relative Low Income', and click the blue 'New Table' button above.
-3. Under Geography, click 'National_Regional_LA_OAs', then 'Great Britain'. Click on the small arrow to the RIGHT of 'Scotland and select 'Local Authority'. This should select all Scottish LAs. Click the 'Row' button above to add to table.
-4. Click on Year and then the little arrow to the RIGHT and select Year again which checks all available years. Click on the 'Column' button in the panel above to add to table.
-5. Under 'Age of child (years and bands)', check the 0-4, 5-10, and 11-15 boxes. Click on the 'Column' button in the panel above to add to table.
-6. In the top right corner there is a select drop down menu, select 'Open Data API Query (.json)' then press go. This will download a json file.
-7. Rename this file 'child_poverty_08_22.json' (with the relevant month/day) and move/save to 'data_update/json/' file. Moving related older json files to historic_json.
+#### API_keys
+The Stat-Xplore API requires authentication in the form of an API Key which is saved in this folder as a .txt file.
+
+***
+
+## Data update steps 
+
+### 1. Version Control
+Once you have cloned the repository, in the console run `renv::restore()` to synchronize your package library with that in the lockfile to ensure package dependencies for this project are met.
+
+### 2. Obtain .json files from StatXplore
+The StatXplore API queries use .json files which are generated through the StatXplore table-generator UI. These query specific time-series dates so have to be manually updated as new data becomes available (once annually). Detailed instruction for how to obtain the exact dataset are written below.
+
+### 3. Run API scripts
+Run the scripts within the **data_update/API_scripts/run_first** folder, and then run the scripts within the **data_update/API_scripts/run_second** folder. These each generate a csv in the **data_update/data** folder. They are seperated in this way because **run_first** scripts write population data to csv to be used as denominator data in _Out of Work Benefits_ and _Child Poverty_ rate calculations with the **run_second** folder.
+
+### 4. Create master data
+Run the **data_update/master_data.R** file which writes a csv of the master data to the folder **cpop_data** named _masterdata_dd_mm_yy.csv_ (where dd_mm_yy corresponds to the day when this step is done.)
+
+### 5. Update dashboard to read latest data
+Take note of the name of the materdata csv in the **cpop_data** and navigate to these lines which are the first in the `global.R` script:
+
+`#MASTERDATA - update file name manually for data update.
+CPPdta <- readr::read_csv("cpop_data/masterdata_04_08_22.csv")`
+
+update the date so that it corresponds to the most recent data file.
+
+The dashboard should show the latest data.
+
+***
+
+#### Obtain out of work benefits .json file
+1. Visit [Stat-Xplore](https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml) and log-in/sign up.
+2. Go to  _Datasets > Benefit Combinations > Benefit Combinations - Data from February 2019_, and click the blue _'New Table'_ button above.
+3. Go to  _Geography > National_Regional_LA_OAs > Great Britain_. Click on the small arrow to the RIGHT of _Scotland_ and select _Local Authority_. This should select all Scottish LAs. Click the _Row_ button above to add to table.
+4. Click on _Quarter_ and select checkboxes for all _May_ quarters available. Click the _Column_ button above to add to table.
+5. Under _Benefit Groups_ click on _Benefit Combinations (Out of Work)_. Click the button to the RIGHT of this and select again _Benefit Combinations (Out of Work)_. This will check all benefit categories. **IT IS IMPORTANT TO DESELECT/UNCHECK THE BOX NEXT TO _not on out of work benefits_**. Then click the _Column_ button from the top again to add to table. Should you be warned about entering large table mode, select okay.
+6. In the top right corner there is a select drop down menu, select _Open Data API Query (.json)_ then press go. This will download a json file.
+7. save this file to **data_update/json** with the name 'oowb_mm_yy.json' (with the relevant month_year). Moving older json to historic_json after.
+(The above steps can be repeated to obtain oowb_historic data by clicking on 'Benefit Combinations - Data to November 2018' at step 2 - whilst this dataset will not include more years, there may be historic updates to the data so it would be worth updating the json file).
+
+#### Obtain child poverty .json file
+1. Visit [Stat-Xplore](https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml) and log-in/sign up.
+2. Go to _Datasets > Children in Low Income Families > Relative Low Income_ and click the blue _New Table_ button above.
+3. Go to _Geography > National_Regional_LA_OAs > Great Britain_. Click on the small arrow to the RIGHT of _Scotland_ and select _Local Authority_. This should select all Scottish LAs. Click the _Row_ button above to add to table.
+4. Click on _Year_ and then the little arrow to the RIGHT and select _Year_ again which checks all available years. Click on the _Column_ button in the panel above to add to table.
+5. Under _Age of child (years and bands)_, check the 0-4, 5-10, and 11-15 boxes. Click on the _Column_ button in the panel above to add to table.
+6. In the top right corner there is a select drop down menu, select _Open Data API Query (.json)_ then press go. This will download a json file.
+7. Save this file to **data_update/json** with the name 'child_poverty_mm_yy.json' (with the relevant month_year of download). Moving older json to historic_json after.

@@ -11,7 +11,7 @@ child_population$Year <- as.character(paste0(child_population$Year - 1,"/", chil
 child_population$children_population <- as.numeric(child_population$children_population)
 
 #provide key to api
-statxplorer::load_api_key("data_update/txt/statxpl_apikey.txt")
+statxplorer::load_api_key("data_update/API_keys/statxpl_apikey.txt")
 
 #query statXplore api fo LA level relative low income child poverty data (from json file)
 results <- statxplorer::fetch_table(filename = "data_update/json/child_poverty_07_22.json")

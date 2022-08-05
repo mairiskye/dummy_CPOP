@@ -5,18 +5,23 @@ library(tidyr)
 library(magrittr)
 library(zoo)
 
-#reource id obtained from navigating to appropriate dataset on phs open data portal and coping id from browser
-bmi_id <- "e9f8d10c-9c06-4e77-a0f5-70ff14af25a4"
+#resource id obtained from navigating to appropriate dataset on phs open data portal and coping id from browser
+
+clinical_bmi_id <- "4a3daa0f-1580-4a59-ac9e-64d9a31a4429"
 
 #get bmi data and extract relevant variables
-BMI_dataset <- phsopendata::get_resource(res_id = bmi_id)
-healthy_BMI <- BMI_dataset[c("SchoolYear", "CA", "EpiHealthyWeight")]
+clinical_BMI_dataset <- phsopendata::get_resource(res_id = clinical_bmi_id)
+healthy_BMI <- clinical_BMI_dataset[c("SchoolYear", "CA", "ClinHealthyWeight")] %>%
+  dplyr::filter(SchoolYear >= "2008/09")
+
+healthy_BMI$CA[healthy_BMI$CA == "City of Edinburgh"] <- "Edinburgh, City of"
+healthy_BMI$CA[healthy_BMI$CA == "Na h-Eileanan Siar"] <- "Eilean Siar"
 
 #convert values column to three year rolled average 
 rolled_avg_BMI <- healthy_BMI %>%
   dplyr::arrange(desc(CA)) %>% 
   dplyr::group_by(CA) %>% 
-  dplyr::mutate("threeYrAvg" = 100*(zoo::rollmean(EpiHealthyWeight, k = 3, fill = NA))) %>% 
+  dplyr::mutate("threeYrAvg" = 100*(zoo::rollmean(ClinHealthyWeight, k = 3, fill = NA))) %>% 
   dplyr::ungroup() %>%
   drop_na("threeYrAvg") #NAs introduced for first and last year when averages calculated
 

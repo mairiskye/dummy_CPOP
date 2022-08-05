@@ -1,9 +1,10 @@
-library(shiny)  #
-library(readr)  #
-library(shinydashboard) #
-library(dplyr)  #
+library(shiny)  
+library(readr)  
+library(shinydashboard) 
+library(dplyr)  
 library(plotly)
 library(ggplot2)
+library(magrittr)
 
 #MASTERDATA - update file name manually for data update.
 CPPdta <- readr::read_csv("cpop_data/masterdata_05_08_22.csv")

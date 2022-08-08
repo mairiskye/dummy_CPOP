@@ -7,12 +7,10 @@ library(dplyr)
 
 statxplorer::load_api_key("data_update/API_keys/statxpl_apikey.txt")
 
-#UPDATE ME
 #data from 2019 onwards :
 results_recent <- statxplorer::fetch_table(filename = "data_update/json/oowb_08_22.json")
 
-#UPDATE ME
-#data from 2013-2018:
+#data from 2022_2218:
 results_historic <- statxplorer::fetch_table(filename = "data_update/json/oowb_historic_08_22.json")
 
 recent_data <- results_recent$dfs$`Benefit Combinations New` %>%
@@ -42,6 +40,7 @@ oowb_count$CPP[oowb_count$CPP == "Total"] <- "Scotland"
 population <- read.csv("data_update/data/working_age_population_cpp.csv")
 population$Year <- as.numeric(population$Year)
 
+#combine numerator and denominator data
 oowb_proportions <- left_join(oowb_count, population, by = c("Year", "CPP")) %>%
   na.omit() %>%
   mutate(value = benefit_recipient_count/working_age_pop*100,

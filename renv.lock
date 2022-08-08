@@ -114,7 +114,6 @@
         "htmltools",
         "jquerylib",
         "jsonlite",
-        "memoise",
         "rlang",
         "sass"
       ]
@@ -487,17 +486,6 @@
       "Repository": "CRAN",
       "Hash": "7ce2733a9826b3aeb1775d56fd305472",
       "Requirements": []
-    },
-    "memoise": {
-      "Package": "memoise",
-      "Version": "2.0.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "e2817ccf4a065c5d9d7f2cfbe7c1d78c",
-      "Requirements": [
-        "cachem",
-        "rlang"
-      ]
     },
     "mgcv": {
       "Package": "mgcv",

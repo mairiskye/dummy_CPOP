@@ -9,6 +9,7 @@ crime_dta <- read.csv("data_update/data/crime_rate_cpp.csv")
 wellbeing_dta <- read.csv("data_update/data/wellbeing_cpp.csv")
 median_pay_dta <- read.csv("data_update/data/median_pay_cpp.csv")
 
+#create master data by individual indicator datasets
 masterdata <- rbind(bweight_dta, childpov_dta, attnment_dta, 
                     employment_dta, oowb_dta, p1_bmi_dta, wellbeing_dta,
                     crime_dta, median_pay_dta)
@@ -17,6 +18,12 @@ masterdata <- rbind(bweight_dta, childpov_dta, attnment_dta,
 masterdata$CPP[masterdata$CPP == "City of Edinburgh"] <- "Edinburgh, City of"
 masterdata$CPP[masterdata$CPP == "Na h-Eileanan Siar"] <- "Eilean Siar"
 
-
+#write masterdata to csv with today's date in the file name
 currentDate <- format(Sys.Date(), "%d_%m_%y")
 write.csv(masterdata, file = paste0("cpop_data/masterdata_",currentDate,".csv"), row.names = FALSE)
+
+#in global.R, find and replace "dd_mm_yy" string with current date so that
+  #it corresponds to newest masterdata csv
+readLines('global.R') %>%
+  gsub("[0-9]{2}_[0-9]{2}_[0-9]{2}", currentDate, .) %>%
+  writeLines("global.R")

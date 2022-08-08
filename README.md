@@ -48,18 +48,7 @@ should become...
 
 ### 4. Run API scripts
 Run the  `/data_update/update_data.R` file.
-This runs all individual API query scripts (within _/data_update/API_queries_) in the correct order. Since this involves 10 successive API calls it might take a minute or two to complete.
-
-### 4. Find Masterdata
-Navigate to the _/cpop_data_` folder where there will be multiple files named _masterdata_dd_mm_yy.csv_. Ensure there is one with the current date - this is the output from the last step. 
-
-### 5. Update global.R script
-In the `global.R` file, find these first lines:
-
-`#UPDATE ME - update file name manually for data update.`
-`CPPdta <- readr::read_csv("cpop_data/masterdata_04_08_22.csv")`
-
-Update the file name date so that it corresponds to the newly updated masterdata data file.
+This runs all individual API query scripts (within _/data_update/API_queries_) in the correct order. Since this involves 10 successive API calls it might take a minute or two to complete. The _/data_update/API_scripts/run_third/master_data.R_ file contains code which automatically updates the global.R script ro read newest metadata. 
 
 The dashboard should show the latest data when run.
 

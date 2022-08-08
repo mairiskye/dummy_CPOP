@@ -20,7 +20,7 @@ names(data) <- c("CPP", "Year", "Age", "Count")
 
 #extract data for ages 0-15
 extract_age <- data %>%
-  dplyr::filter(Age == c("0-4", "5-10", "11-15"))
+  dplyr::filter(Age == c("0-4", "5-10", "22-22"))
 
 #count total children in poverty by summing age bands
 child_pov_count <- extract_age %>%

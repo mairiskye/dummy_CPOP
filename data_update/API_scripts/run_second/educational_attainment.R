@@ -27,6 +27,17 @@ s02 <- left_join(data, codes, by = "s02") %>%
 
 s12 <- data %>%
   group_by(CPP, Year) %>%
-  summarise(Score = mean(Score))
+  summarise(value = mean(Score))
 
-write.csv(s12, "data_update/data/educational_attainment.csv", row.names = FALSE)
+scotland_totals <- s12 %>%
+  group_by(Year) %>%
+  summarise(value = mean(value)) %>%
+  mutate(CPP = "Scotland")
+
+final_cpp_attainment <- rbind(s12, scotland_totals) %>%
+  mutate(Indicator = "Attainment",
+         Type = "Raw") %>%
+  select(CPP, Year, Indicator, Type, value) %>%
+  arrange(CPP, Year)
+
+write.csv(final_cpp_attainment, "data_update/data/educational_attainment_cpp.csv", row.names = FALSE)

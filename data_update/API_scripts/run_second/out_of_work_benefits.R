@@ -5,13 +5,13 @@ library(statxplorer) #available here: https://github.com/houseofcommonslibrary/s
 library(magrittr)
 library(dplyr)
 
-population <- read.csv("data_update/data/working_age_population_cpp.csv")
-population$Year <- as.numeric(population$Year)
-
 statxplorer::load_api_key("data_update/API_keys/statxpl_apikey.txt")
 
+#UPDATE ME
 #data from 2019 onwards :
 results_recent <- statxplorer::fetch_table(filename = "data_update/json/oowb_08_22.json")
+
+#UPDATE ME
 #data from 2013-2018:
 results_historic <- statxplorer::fetch_table(filename = "data_update/json/oowb_historic_08_22.json")
 
@@ -37,6 +37,10 @@ oowb_count$Year <- as.numeric(oowb_count$Year)
 oowb_count$CPP[oowb_count$CPP == "City of Edinburgh"] <- "Edinburgh, City of"
 oowb_count$CPP[oowb_count$CPP == "Na h-Eileanan Siar"] <- "Eilean Siar"
 oowb_count$CPP[oowb_count$CPP == "Total"] <- "Scotland"
+
+#read in denominator data (api output)
+population <- read.csv("data_update/data/working_age_population_cpp.csv")
+population$Year <- as.numeric(population$Year)
 
 oowb_proportions <- left_join(oowb_count, population, by = c("Year", "CPP")) %>%
   na.omit() %>%

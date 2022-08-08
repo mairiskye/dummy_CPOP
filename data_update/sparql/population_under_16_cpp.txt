@@ -1,0 +1,14 @@
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+select   ?CPP ?Year ?child_population
+where { ?data qb:dataSet <http://statistics.gov.scot/data/population-estimates-2011-datazone-linked-dataset>. 
+  ?data <http://purl.org/linked-data/sdmx/2009/dimension#refArea> ?refArea.
+  ?data <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> ?refPeriodURI.   
+  ?refPeriodURI rdfs:label ?Year.
+  ?refArea rdfs:label ?CPP.
+  ?data <http://purl.org/linked-data/cube#measureType> ?measureType.
+  ?data <http://statistics.gov.scot/def/dimension/age> ?age.
+  ?data <http://statistics.gov.scot/def/dimension/sex> ?sex.
+  ?data ?measureType ?child_population. 
+  filter (strstarts(strafter(str(?refArea),'http://statistics.gov.scot/id/statistical-geography/'),'S12')). filter (regex(str(?sex ), 'all$')) filter (regex(str(?age ), 'children-under-16-years$'))  }

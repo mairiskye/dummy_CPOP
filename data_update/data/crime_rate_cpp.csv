@@ -1,0 +1,463 @@
+"CPP","Year","Indicator","Type","value"
+"Aberdeen City","2008/2009","Crime","Raw",1192
+"Aberdeen City","2009/2010","Crime","Raw",1055
+"Aberdeen City","2010/2011","Crime","Raw",1061
+"Aberdeen City","2011/2012","Crime","Raw",1011
+"Aberdeen City","2012/2013","Crime","Raw",885
+"Aberdeen City","2013/2014","Crime","Raw",833
+"Aberdeen City","2014/2015","Crime","Raw",761
+"Aberdeen City","2015/2016","Crime","Raw",765
+"Aberdeen City","2016/2017","Crime","Raw",749
+"Aberdeen City","2017/2018","Crime","Raw",680
+"Aberdeen City","2018/2019","Crime","Raw",627
+"Aberdeen City","2019/2020","Crime","Raw",626
+"Aberdeen City","2020/2021","Crime","Raw",623
+"Aberdeen City","2021/2022","Crime","Raw",689
+"Aberdeenshire","2008/2009","Crime","Raw",440
+"Aberdeenshire","2009/2010","Crime","Raw",404
+"Aberdeenshire","2010/2011","Crime","Raw",408
+"Aberdeenshire","2011/2012","Crime","Raw",379
+"Aberdeenshire","2012/2013","Crime","Raw",360
+"Aberdeenshire","2013/2014","Crime","Raw",343
+"Aberdeenshire","2014/2015","Crime","Raw",292
+"Aberdeenshire","2015/2016","Crime","Raw",316
+"Aberdeenshire","2016/2017","Crime","Raw",315
+"Aberdeenshire","2017/2018","Crime","Raw",313
+"Aberdeenshire","2018/2019","Crime","Raw",312
+"Aberdeenshire","2019/2020","Crime","Raw",326
+"Aberdeenshire","2020/2021","Crime","Raw",292
+"Aberdeenshire","2021/2022","Crime","Raw",313
+"Angus","2008/2009","Crime","Raw",640
+"Angus","2009/2010","Crime","Raw",527
+"Angus","2010/2011","Crime","Raw",507
+"Angus","2011/2012","Crime","Raw",430
+"Angus","2012/2013","Crime","Raw",424
+"Angus","2013/2014","Crime","Raw",447
+"Angus","2014/2015","Crime","Raw",441
+"Angus","2015/2016","Crime","Raw",438
+"Angus","2016/2017","Crime","Raw",402
+"Angus","2017/2018","Crime","Raw",408
+"Angus","2018/2019","Crime","Raw",371
+"Angus","2019/2020","Crime","Raw",380
+"Angus","2020/2021","Crime","Raw",380
+"Angus","2021/2022","Crime","Raw",409
+"Argyll and Bute","2008/2009","Crime","Raw",631
+"Argyll and Bute","2009/2010","Crime","Raw",575
+"Argyll and Bute","2010/2011","Crime","Raw",555
+"Argyll and Bute","2011/2012","Crime","Raw",531
+"Argyll and Bute","2012/2013","Crime","Raw",451
+"Argyll and Bute","2013/2014","Crime","Raw",412
+"Argyll and Bute","2014/2015","Crime","Raw",392
+"Argyll and Bute","2015/2016","Crime","Raw",378
+"Argyll and Bute","2016/2017","Crime","Raw",325
+"Argyll and Bute","2017/2018","Crime","Raw",337
+"Argyll and Bute","2018/2019","Crime","Raw",351
+"Argyll and Bute","2019/2020","Crime","Raw",372
+"Argyll and Bute","2020/2021","Crime","Raw",374
+"Argyll and Bute","2021/2022","Crime","Raw",352
+"City of Edinburgh","2008/2009","Crime","Raw",1125
+"City of Edinburgh","2009/2010","Crime","Raw",1008
+"City of Edinburgh","2010/2011","Crime","Raw",958
+"City of Edinburgh","2011/2012","Crime","Raw",897
+"City of Edinburgh","2012/2013","Crime","Raw",770
+"City of Edinburgh","2013/2014","Crime","Raw",870
+"City of Edinburgh","2014/2015","Crime","Raw",855
+"City of Edinburgh","2015/2016","Crime","Raw",772
+"City of Edinburgh","2016/2017","Crime","Raw",712
+"City of Edinburgh","2017/2018","Crime","Raw",775
+"City of Edinburgh","2018/2019","Crime","Raw",734
+"City of Edinburgh","2019/2020","Crime","Raw",701
+"City of Edinburgh","2020/2021","Crime","Raw",619
+"City of Edinburgh","2021/2022","Crime","Raw",607
+"Clackmannanshire","2008/2009","Crime","Raw",915
+"Clackmannanshire","2009/2010","Crime","Raw",762
+"Clackmannanshire","2010/2011","Crime","Raw",789
+"Clackmannanshire","2011/2012","Crime","Raw",728
+"Clackmannanshire","2012/2013","Crime","Raw",624
+"Clackmannanshire","2013/2014","Crime","Raw",574
+"Clackmannanshire","2014/2015","Crime","Raw",601
+"Clackmannanshire","2015/2016","Crime","Raw",582
+"Clackmannanshire","2016/2017","Crime","Raw",527
+"Clackmannanshire","2017/2018","Crime","Raw",569
+"Clackmannanshire","2018/2019","Crime","Raw",554
+"Clackmannanshire","2019/2020","Crime","Raw",591
+"Clackmannanshire","2020/2021","Crime","Raw",597
+"Clackmannanshire","2021/2022","Crime","Raw",542
+"Dumfries and Galloway","2008/2009","Crime","Raw",609
+"Dumfries and Galloway","2009/2010","Crime","Raw",562
+"Dumfries and Galloway","2010/2011","Crime","Raw",554
+"Dumfries and Galloway","2011/2012","Crime","Raw",496
+"Dumfries and Galloway","2012/2013","Crime","Raw",437
+"Dumfries and Galloway","2013/2014","Crime","Raw",458
+"Dumfries and Galloway","2014/2015","Crime","Raw",430
+"Dumfries and Galloway","2015/2016","Crime","Raw",508
+"Dumfries and Galloway","2016/2017","Crime","Raw",511
+"Dumfries and Galloway","2017/2018","Crime","Raw",529
+"Dumfries and Galloway","2018/2019","Crime","Raw",580
+"Dumfries and Galloway","2019/2020","Crime","Raw",562
+"Dumfries and Galloway","2020/2021","Crime","Raw",546
+"Dumfries and Galloway","2021/2022","Crime","Raw",580
+"Dundee City","2008/2009","Crime","Raw",1084
+"Dundee City","2009/2010","Crime","Raw",980
+"Dundee City","2010/2011","Crime","Raw",1012
+"Dundee City","2011/2012","Crime","Raw",818
+"Dundee City","2012/2013","Crime","Raw",754
+"Dundee City","2013/2014","Crime","Raw",775
+"Dundee City","2014/2015","Crime","Raw",728
+"Dundee City","2015/2016","Crime","Raw",756
+"Dundee City","2016/2017","Crime","Raw",746
+"Dundee City","2017/2018","Crime","Raw",742
+"Dundee City","2018/2019","Crime","Raw",746
+"Dundee City","2019/2020","Crime","Raw",809
+"Dundee City","2020/2021","Crime","Raw",856
+"Dundee City","2021/2022","Crime","Raw",807
+"East Ayrshire","2008/2009","Crime","Raw",817
+"East Ayrshire","2009/2010","Crime","Raw",796
+"East Ayrshire","2010/2011","Crime","Raw",763
+"East Ayrshire","2011/2012","Crime","Raw",746
+"East Ayrshire","2012/2013","Crime","Raw",619
+"East Ayrshire","2013/2014","Crime","Raw",588
+"East Ayrshire","2014/2015","Crime","Raw",609
+"East Ayrshire","2015/2016","Crime","Raw",602
+"East Ayrshire","2016/2017","Crime","Raw",549
+"East Ayrshire","2017/2018","Crime","Raw",528
+"East Ayrshire","2018/2019","Crime","Raw",523
+"East Ayrshire","2019/2020","Crime","Raw",561
+"East Ayrshire","2020/2021","Crime","Raw",541
+"East Ayrshire","2021/2022","Crime","Raw",529
+"East Dunbartonshire","2008/2009","Crime","Raw",450
+"East Dunbartonshire","2009/2010","Crime","Raw",458
+"East Dunbartonshire","2010/2011","Crime","Raw",452
+"East Dunbartonshire","2011/2012","Crime","Raw",442
+"East Dunbartonshire","2012/2013","Crime","Raw",393
+"East Dunbartonshire","2013/2014","Crime","Raw",353
+"East Dunbartonshire","2014/2015","Crime","Raw",320
+"East Dunbartonshire","2015/2016","Crime","Raw",293
+"East Dunbartonshire","2016/2017","Crime","Raw",319
+"East Dunbartonshire","2017/2018","Crime","Raw",292
+"East Dunbartonshire","2018/2019","Crime","Raw",319
+"East Dunbartonshire","2019/2020","Crime","Raw",319
+"East Dunbartonshire","2020/2021","Crime","Raw",342
+"East Dunbartonshire","2021/2022","Crime","Raw",265
+"East Lothian","2008/2009","Crime","Raw",549
+"East Lothian","2009/2010","Crime","Raw",547
+"East Lothian","2010/2011","Crime","Raw",537
+"East Lothian","2011/2012","Crime","Raw",461
+"East Lothian","2012/2013","Crime","Raw",399
+"East Lothian","2013/2014","Crime","Raw",425
+"East Lothian","2014/2015","Crime","Raw",404
+"East Lothian","2015/2016","Crime","Raw",400
+"East Lothian","2016/2017","Crime","Raw",408
+"East Lothian","2017/2018","Crime","Raw",425
+"East Lothian","2018/2019","Crime","Raw",457
+"East Lothian","2019/2020","Crime","Raw",442
+"East Lothian","2020/2021","Crime","Raw",434
+"East Lothian","2021/2022","Crime","Raw",408
+"East Renfrewshire","2008/2009","Crime","Raw",451
+"East Renfrewshire","2009/2010","Crime","Raw",403
+"East Renfrewshire","2010/2011","Crime","Raw",411
+"East Renfrewshire","2011/2012","Crime","Raw",380
+"East Renfrewshire","2012/2013","Crime","Raw",324
+"East Renfrewshire","2013/2014","Crime","Raw",271
+"East Renfrewshire","2014/2015","Crime","Raw",276
+"East Renfrewshire","2015/2016","Crime","Raw",261
+"East Renfrewshire","2016/2017","Crime","Raw",281
+"East Renfrewshire","2017/2018","Crime","Raw",312
+"East Renfrewshire","2018/2019","Crime","Raw",277
+"East Renfrewshire","2019/2020","Crime","Raw",279
+"East Renfrewshire","2020/2021","Crime","Raw",265
+"East Renfrewshire","2021/2022","Crime","Raw",227
+"Falkirk","2008/2009","Crime","Raw",750
+"Falkirk","2009/2010","Crime","Raw",650
+"Falkirk","2010/2011","Crime","Raw",676
+"Falkirk","2011/2012","Crime","Raw",660
+"Falkirk","2012/2013","Crime","Raw",594
+"Falkirk","2013/2014","Crime","Raw",583
+"Falkirk","2014/2015","Crime","Raw",550
+"Falkirk","2015/2016","Crime","Raw",514
+"Falkirk","2016/2017","Crime","Raw",476
+"Falkirk","2017/2018","Crime","Raw",551
+"Falkirk","2018/2019","Crime","Raw",552
+"Falkirk","2019/2020","Crime","Raw",564
+"Falkirk","2020/2021","Crime","Raw",517
+"Falkirk","2021/2022","Crime","Raw",496
+"Fife","2008/2009","Crime","Raw",826
+"Fife","2009/2010","Crime","Raw",722
+"Fife","2010/2011","Crime","Raw",647
+"Fife","2011/2012","Crime","Raw",619
+"Fife","2012/2013","Crime","Raw",530
+"Fife","2013/2014","Crime","Raw",571
+"Fife","2014/2015","Crime","Raw",510
+"Fife","2015/2016","Crime","Raw",494
+"Fife","2016/2017","Crime","Raw",488
+"Fife","2017/2018","Crime","Raw",503
+"Fife","2018/2019","Crime","Raw",504
+"Fife","2019/2020","Crime","Raw",474
+"Fife","2020/2021","Crime","Raw",488
+"Fife","2021/2022","Crime","Raw",512
+"Glasgow City","2008/2009","Crime","Raw",1415
+"Glasgow City","2009/2010","Crime","Raw",1284
+"Glasgow City","2010/2011","Crime","Raw",1200
+"Glasgow City","2011/2012","Crime","Raw",1250
+"Glasgow City","2012/2013","Crime","Raw",1076
+"Glasgow City","2013/2014","Crime","Raw",1020
+"Glasgow City","2014/2015","Crime","Raw",959
+"Glasgow City","2015/2016","Crime","Raw",870
+"Glasgow City","2016/2017","Crime","Raw",878
+"Glasgow City","2017/2018","Crime","Raw",877
+"Glasgow City","2018/2019","Crime","Raw",879
+"Glasgow City","2019/2020","Crime","Raw",842
+"Glasgow City","2020/2021","Crime","Raw",819
+"Glasgow City","2021/2022","Crime","Raw",768
+"Highland","2008/2009","Crime","Raw",752
+"Highland","2009/2010","Crime","Raw",657
+"Highland","2010/2011","Crime","Raw",623
+"Highland","2011/2012","Crime","Raw",627
+"Highland","2012/2013","Crime","Raw",529
+"Highland","2013/2014","Crime","Raw",461
+"Highland","2014/2015","Crime","Raw",397
+"Highland","2015/2016","Crime","Raw",429
+"Highland","2016/2017","Crime","Raw",430
+"Highland","2017/2018","Crime","Raw",427
+"Highland","2018/2019","Crime","Raw",409
+"Highland","2019/2020","Crime","Raw",392
+"Highland","2020/2021","Crime","Raw",397
+"Highland","2021/2022","Crime","Raw",394
+"Inverclyde","2008/2009","Crime","Raw",855
+"Inverclyde","2009/2010","Crime","Raw",773
+"Inverclyde","2010/2011","Crime","Raw",800
+"Inverclyde","2011/2012","Crime","Raw",786
+"Inverclyde","2012/2013","Crime","Raw",608
+"Inverclyde","2013/2014","Crime","Raw",614
+"Inverclyde","2014/2015","Crime","Raw",620
+"Inverclyde","2015/2016","Crime","Raw",590
+"Inverclyde","2016/2017","Crime","Raw",537
+"Inverclyde","2017/2018","Crime","Raw",538
+"Inverclyde","2018/2019","Crime","Raw",532
+"Inverclyde","2019/2020","Crime","Raw",566
+"Inverclyde","2020/2021","Crime","Raw",595
+"Inverclyde","2021/2022","Crime","Raw",502
+"Midlothian","2008/2009","Crime","Raw",820
+"Midlothian","2009/2010","Crime","Raw",750
+"Midlothian","2010/2011","Crime","Raw",653
+"Midlothian","2011/2012","Crime","Raw",643
+"Midlothian","2012/2013","Crime","Raw",583
+"Midlothian","2013/2014","Crime","Raw",628
+"Midlothian","2014/2015","Crime","Raw",627
+"Midlothian","2015/2016","Crime","Raw",576
+"Midlothian","2016/2017","Crime","Raw",625
+"Midlothian","2017/2018","Crime","Raw",597
+"Midlothian","2018/2019","Crime","Raw",595
+"Midlothian","2019/2020","Crime","Raw",526
+"Midlothian","2020/2021","Crime","Raw",478
+"Midlothian","2021/2022","Crime","Raw",482
+"Moray","2008/2009","Crime","Raw",661
+"Moray","2009/2010","Crime","Raw",570
+"Moray","2010/2011","Crime","Raw",569
+"Moray","2011/2012","Crime","Raw",532
+"Moray","2012/2013","Crime","Raw",451
+"Moray","2013/2014","Crime","Raw",437
+"Moray","2014/2015","Crime","Raw",372
+"Moray","2015/2016","Crime","Raw",406
+"Moray","2016/2017","Crime","Raw",387
+"Moray","2017/2018","Crime","Raw",358
+"Moray","2018/2019","Crime","Raw",374
+"Moray","2019/2020","Crime","Raw",364
+"Moray","2020/2021","Crime","Raw",344
+"Moray","2021/2022","Crime","Raw",401
+"Na h-Eileanan Siar","2008/2009","Crime","Raw",413
+"Na h-Eileanan Siar","2009/2010","Crime","Raw",319
+"Na h-Eileanan Siar","2010/2011","Crime","Raw",378
+"Na h-Eileanan Siar","2011/2012","Crime","Raw",362
+"Na h-Eileanan Siar","2012/2013","Crime","Raw",320
+"Na h-Eileanan Siar","2013/2014","Crime","Raw",247
+"Na h-Eileanan Siar","2014/2015","Crime","Raw",233
+"Na h-Eileanan Siar","2015/2016","Crime","Raw",241
+"Na h-Eileanan Siar","2016/2017","Crime","Raw",185
+"Na h-Eileanan Siar","2017/2018","Crime","Raw",171
+"Na h-Eileanan Siar","2018/2019","Crime","Raw",200
+"Na h-Eileanan Siar","2019/2020","Crime","Raw",209
+"Na h-Eileanan Siar","2020/2021","Crime","Raw",266
+"Na h-Eileanan Siar","2021/2022","Crime","Raw",233
+"North Ayrshire","2008/2009","Crime","Raw",927
+"North Ayrshire","2009/2010","Crime","Raw",824
+"North Ayrshire","2010/2011","Crime","Raw",803
+"North Ayrshire","2011/2012","Crime","Raw",831
+"North Ayrshire","2012/2013","Crime","Raw",686
+"North Ayrshire","2013/2014","Crime","Raw",634
+"North Ayrshire","2014/2015","Crime","Raw",613
+"North Ayrshire","2015/2016","Crime","Raw",580
+"North Ayrshire","2016/2017","Crime","Raw",565
+"North Ayrshire","2017/2018","Crime","Raw",541
+"North Ayrshire","2018/2019","Crime","Raw",553
+"North Ayrshire","2019/2020","Crime","Raw",582
+"North Ayrshire","2020/2021","Crime","Raw",594
+"North Ayrshire","2021/2022","Crime","Raw",522
+"North Lanarkshire","2008/2009","Crime","Raw",907
+"North Lanarkshire","2009/2010","Crime","Raw",851
+"North Lanarkshire","2010/2011","Crime","Raw",776
+"North Lanarkshire","2011/2012","Crime","Raw",731
+"North Lanarkshire","2012/2013","Crime","Raw",643
+"North Lanarkshire","2013/2014","Crime","Raw",625
+"North Lanarkshire","2014/2015","Crime","Raw",596
+"North Lanarkshire","2015/2016","Crime","Raw",578
+"North Lanarkshire","2016/2017","Crime","Raw",583
+"North Lanarkshire","2017/2018","Crime","Raw",601
+"North Lanarkshire","2018/2019","Crime","Raw",635
+"North Lanarkshire","2019/2020","Crime","Raw",656
+"North Lanarkshire","2020/2021","Crime","Raw",637
+"North Lanarkshire","2021/2022","Crime","Raw",547
+"Orkney Islands","2008/2009","Crime","Raw",334
+"Orkney Islands","2009/2010","Crime","Raw",329
+"Orkney Islands","2010/2011","Crime","Raw",280
+"Orkney Islands","2011/2012","Crime","Raw",270
+"Orkney Islands","2012/2013","Crime","Raw",280
+"Orkney Islands","2013/2014","Crime","Raw",235
+"Orkney Islands","2014/2015","Crime","Raw",196
+"Orkney Islands","2015/2016","Crime","Raw",211
+"Orkney Islands","2016/2017","Crime","Raw",209
+"Orkney Islands","2017/2018","Crime","Raw",197
+"Orkney Islands","2018/2019","Crime","Raw",218
+"Orkney Islands","2019/2020","Crime","Raw",206
+"Orkney Islands","2020/2021","Crime","Raw",186
+"Orkney Islands","2021/2022","Crime","Raw",165
+"Perth and Kinross","2008/2009","Crime","Raw",576
+"Perth and Kinross","2009/2010","Crime","Raw",496
+"Perth and Kinross","2010/2011","Crime","Raw",469
+"Perth and Kinross","2011/2012","Crime","Raw",435
+"Perth and Kinross","2012/2013","Crime","Raw",428
+"Perth and Kinross","2013/2014","Crime","Raw",428
+"Perth and Kinross","2014/2015","Crime","Raw",413
+"Perth and Kinross","2015/2016","Crime","Raw",411
+"Perth and Kinross","2016/2017","Crime","Raw",366
+"Perth and Kinross","2017/2018","Crime","Raw",349
+"Perth and Kinross","2018/2019","Crime","Raw",336
+"Perth and Kinross","2019/2020","Crime","Raw",358
+"Perth and Kinross","2020/2021","Crime","Raw",390
+"Perth and Kinross","2021/2022","Crime","Raw",387
+"Renfrewshire","2008/2009","Crime","Raw",912
+"Renfrewshire","2009/2010","Crime","Raw",825
+"Renfrewshire","2010/2011","Crime","Raw",816
+"Renfrewshire","2011/2012","Crime","Raw",808
+"Renfrewshire","2012/2013","Crime","Raw",640
+"Renfrewshire","2013/2014","Crime","Raw",639
+"Renfrewshire","2014/2015","Crime","Raw",614
+"Renfrewshire","2015/2016","Crime","Raw",591
+"Renfrewshire","2016/2017","Crime","Raw",534
+"Renfrewshire","2017/2018","Crime","Raw",554
+"Renfrewshire","2018/2019","Crime","Raw",556
+"Renfrewshire","2019/2020","Crime","Raw",538
+"Renfrewshire","2020/2021","Crime","Raw",555
+"Renfrewshire","2021/2022","Crime","Raw",492
+"Scotland","2008/2009","Crime","Raw",868
+"Scotland","2009/2010","Crime","Raw",784
+"Scotland","2010/2011","Crime","Raw",749
+"Scotland","2011/2012","Crime","Raw",724
+"Scotland","2012/2013","Crime","Raw",630
+"Scotland","2013/2014","Crime","Raw",622
+"Scotland","2014/2015","Crime","Raw",591
+"Scotland","2015/2016","Crime","Raw",570
+"Scotland","2016/2017","Crime","Raw",552
+"Scotland","2017/2018","Crime","Raw",561
+"Scotland","2018/2019","Crime","Raw",562
+"Scotland","2019/2020","Crime","Raw",559
+"Scotland","2020/2021","Crime","Raw",548
+"Scotland","2021/2022","Crime","Raw",524
+"Scottish Borders","2008/2009","Crime","Raw",493
+"Scottish Borders","2009/2010","Crime","Raw",433
+"Scottish Borders","2010/2011","Crime","Raw",395
+"Scottish Borders","2011/2012","Crime","Raw",400
+"Scottish Borders","2012/2013","Crime","Raw",334
+"Scottish Borders","2013/2014","Crime","Raw",358
+"Scottish Borders","2014/2015","Crime","Raw",344
+"Scottish Borders","2015/2016","Crime","Raw",326
+"Scottish Borders","2016/2017","Crime","Raw",338
+"Scottish Borders","2017/2018","Crime","Raw",363
+"Scottish Borders","2018/2019","Crime","Raw",400
+"Scottish Borders","2019/2020","Crime","Raw",393
+"Scottish Borders","2020/2021","Crime","Raw",400
+"Scottish Borders","2021/2022","Crime","Raw",425
+"Shetland Islands","2008/2009","Crime","Raw",472
+"Shetland Islands","2009/2010","Crime","Raw",436
+"Shetland Islands","2010/2011","Crime","Raw",369
+"Shetland Islands","2011/2012","Crime","Raw",377
+"Shetland Islands","2012/2013","Crime","Raw",318
+"Shetland Islands","2013/2014","Crime","Raw",239
+"Shetland Islands","2014/2015","Crime","Raw",266
+"Shetland Islands","2015/2016","Crime","Raw",349
+"Shetland Islands","2016/2017","Crime","Raw",232
+"Shetland Islands","2017/2018","Crime","Raw",205
+"Shetland Islands","2018/2019","Crime","Raw",238
+"Shetland Islands","2019/2020","Crime","Raw",274
+"Shetland Islands","2020/2021","Crime","Raw",244
+"Shetland Islands","2021/2022","Crime","Raw",199
+"South Ayrshire","2008/2009","Crime","Raw",739
+"South Ayrshire","2009/2010","Crime","Raw",630
+"South Ayrshire","2010/2011","Crime","Raw",670
+"South Ayrshire","2011/2012","Crime","Raw",621
+"South Ayrshire","2012/2013","Crime","Raw",569
+"South Ayrshire","2013/2014","Crime","Raw",553
+"South Ayrshire","2014/2015","Crime","Raw",549
+"South Ayrshire","2015/2016","Crime","Raw",536
+"South Ayrshire","2016/2017","Crime","Raw",462
+"South Ayrshire","2017/2018","Crime","Raw",503
+"South Ayrshire","2018/2019","Crime","Raw",529
+"South Ayrshire","2019/2020","Crime","Raw",536
+"South Ayrshire","2020/2021","Crime","Raw",491
+"South Ayrshire","2021/2022","Crime","Raw",462
+"South Lanarkshire","2008/2009","Crime","Raw",740
+"South Lanarkshire","2009/2010","Crime","Raw",669
+"South Lanarkshire","2010/2011","Crime","Raw",635
+"South Lanarkshire","2011/2012","Crime","Raw",604
+"South Lanarkshire","2012/2013","Crime","Raw",552
+"South Lanarkshire","2013/2014","Crime","Raw",534
+"South Lanarkshire","2014/2015","Crime","Raw",521
+"South Lanarkshire","2015/2016","Crime","Raw",503
+"South Lanarkshire","2016/2017","Crime","Raw",483
+"South Lanarkshire","2017/2018","Crime","Raw",518
+"South Lanarkshire","2018/2019","Crime","Raw",523
+"South Lanarkshire","2019/2020","Crime","Raw",548
+"South Lanarkshire","2020/2021","Crime","Raw",552
+"South Lanarkshire","2021/2022","Crime","Raw",484
+"Stirling","2008/2009","Crime","Raw",744
+"Stirling","2009/2010","Crime","Raw",704
+"Stirling","2010/2011","Crime","Raw",693
+"Stirling","2011/2012","Crime","Raw",725
+"Stirling","2012/2013","Crime","Raw",571
+"Stirling","2013/2014","Crime","Raw",518
+"Stirling","2014/2015","Crime","Raw",562
+"Stirling","2015/2016","Crime","Raw",549
+"Stirling","2016/2017","Crime","Raw",464
+"Stirling","2017/2018","Crime","Raw",452
+"Stirling","2018/2019","Crime","Raw",460
+"Stirling","2019/2020","Crime","Raw",468
+"Stirling","2020/2021","Crime","Raw",476
+"Stirling","2021/2022","Crime","Raw",436
+"West Dunbartonshire","2008/2009","Crime","Raw",1120
+"West Dunbartonshire","2009/2010","Crime","Raw",1012
+"West Dunbartonshire","2010/2011","Crime","Raw",963
+"West Dunbartonshire","2011/2012","Crime","Raw",948
+"West Dunbartonshire","2012/2013","Crime","Raw",802
+"West Dunbartonshire","2013/2014","Crime","Raw",692
+"West Dunbartonshire","2014/2015","Crime","Raw",659
+"West Dunbartonshire","2015/2016","Crime","Raw",645
+"West Dunbartonshire","2016/2017","Crime","Raw",607
+"West Dunbartonshire","2017/2018","Crime","Raw",572
+"West Dunbartonshire","2018/2019","Crime","Raw",623
+"West Dunbartonshire","2019/2020","Crime","Raw",636
+"West Dunbartonshire","2020/2021","Crime","Raw",736
+"West Dunbartonshire","2021/2022","Crime","Raw",601
+"West Lothian","2008/2009","Crime","Raw",802
+"West Lothian","2009/2010","Crime","Raw",782
+"West Lothian","2010/2011","Crime","Raw",633
+"West Lothian","2011/2012","Crime","Raw",624
+"West Lothian","2012/2013","Crime","Raw",560
+"West Lothian","2013/2014","Crime","Raw",596
+"West Lothian","2014/2015","Crime","Raw",542
+"West Lothian","2015/2016","Crime","Raw",531
+"West Lothian","2016/2017","Crime","Raw",519
+"West Lothian","2017/2018","Crime","Raw",507
+"West Lothian","2018/2019","Crime","Raw",536
+"West Lothian","2019/2020","Crime","Raw",519
+"West Lothian","2020/2021","Crime","Raw",520
+"West Lothian","2021/2022","Crime","Raw",501

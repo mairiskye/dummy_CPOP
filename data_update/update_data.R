@@ -2,7 +2,8 @@
 # as well as the script which combines these datasets into a masterdata file, 
 # in the correct order.
 
-source("data_update/API_scripts/run_first/child_and_working_age_populations.R")
+source("data_update/API_scripts/run_first/working_age_population_cpp.R")
+source("data_update/API_scripts/run_first/under_16_population_cpp.R")
 source("data_update/API_scripts/run_second/child_poverty.R")
 source("data_update/API_scripts/run_second/crime_rate.R")
 source("data_update/API_scripts/run_second/educational_attainment.R")

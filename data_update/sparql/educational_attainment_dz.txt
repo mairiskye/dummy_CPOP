@@ -1,0 +1,14 @@
+PREFIX qb: <http://purl.org/linked-data/cube#>                
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>             
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX rs: <http://rightsstatements.org/vocab/>
+select    ?Code ?DZ ?Year ?Score
+where { ?data qb:dataSet <http://statistics.gov.scot/data/educational-attainment-of-school-leavers>. 
+  ?data <http://purl.org/linked-data/sdmx/2009/dimension#refArea> ?refArea. 
+  ?refArea rdfs:label ?DZ.
+  ?refArea <http://www.w3.org/2004/02/skos/core#notation> ?Code.
+  ?data <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> ?refPeriodURI.    
+  ?refPeriodURI rdfs:label ?Year.
+  ?data <http://purl.org/linked-data/cube#measureType>  ?measureType.
+  ?data ?measureType ?Score. 
+  filter (strstarts(strafter(str(?refArea),'http://statistics.gov.scot/id/statistical-geography/'),'S01')). }

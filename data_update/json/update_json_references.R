@@ -1,7 +1,7 @@
 library(magrittr)
 
 #UPDATE when new .json files are added with format "mm_yy"
-child_poverty <- "07_22"
+child_poverty <- "08_22"
 oowb <- "08_22"
 oowb_historic <- "08_22"
 

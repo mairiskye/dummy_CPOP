@@ -1,0 +1,694 @@
+"CPP","Year","working_age_population"
+"Renfrewshire",2004,112393
+"Orkney Islands",2015,13367
+"Eilean Siar",2004,16452
+"Renfrewshire",2014,112497
+"Renfrewshire",2005,112225
+"Dundee City",2004,93174
+"Shetland Islands",2016,14564
+"Scottish Borders",2003,67589
+"Stirling",2014,59099
+"West Dunbartonshire",2010,59781
+"Dundee City",2005,93920
+"Glasgow City",2009,402333
+"Renfrewshire",2008,113142
+"Glasgow City",2011,414985
+"North Ayrshire",2003,86974
+"Falkirk",2016,101864
+"North Ayrshire",2013,85446
+"Falkirk",2007,100360
+"Angus",2015,71170
+"Midlothian",2002,51996
+"East Renfrewshire",2015,56522
+"West Dunbartonshire",2016,57905
+"Midlothian",2012,53602
+"Angus",2001,68382
+"South Ayrshire",2014,68319
+"Highland",2001,133241
+"Shetland Islands",2009,14668
+"East Renfrewshire",2002,56524
+"Scottish Borders",2001,66540
+"Inverclyde",2013,51676
+"Glasgow City",2004,380835
+"Clackmannanshire",2006,32808
+"Aberdeen City",2006,145188
+"East Renfrewshire",2013,56252
+"Scottish Borders",2009,70696
+"Midlothian",2004,51840
+"South Ayrshire",2002,70080
+"Midlothian",2014,54253
+"South Lanarkshire",2003,198206
+"North Ayrshire",2008,88126
+"Angus",2005,70031
+"Fife",2015,231637
+"East Lothian",2002,56637
+"East Ayrshire",2012,78930
+"North Lanarkshire",2006,217018
+"Orkney Islands",2013,13474
+"Fife",2009,234634
+"South Ayrshire",2001,70381
+"Aberdeenshire",2011,165016
+"Perth and Kinross",2006,87334
+"West Lothian",2013,114916
+"Edinburgh, City of",2002,306160
+"Dumfries and Galloway",2015,89653
+"West Lothian",2012,115569
+"Dumfries and Galloway",2016,88999
+"Stirling",2015,60177
+"South Lanarkshire",2007,203282
+"North Lanarkshire",2004,214628
+"Dumfries and Galloway",2007,93381
+"Scottish Borders",2004,68249
+"Aberdeenshire",2007,159977
+"Renfrewshire",2013,112702
+"Argyll and Bute",2008,56377
+"East Lothian",2005,58141
+"North Lanarkshire",2008,220202
+"Dumfries and Galloway",2006,93154
+"Inverclyde",2004,53392
+"Argyll and Bute",2009,55889
+"Moray",2014,59171
+"Glasgow City",2003,380869
+"Inverclyde",2005,53426
+"Aberdeen City",2014,161147
+"Eilean Siar",2006,16791
+"Angus",2016,70588
+"Glasgow City",2016,432793
+"Dumfries and Galloway",2011,93029
+"Clackmannanshire",2009,33889
+"South Ayrshire",2013,68969
+"South Lanarkshire",2008,203893
+"Clackmannanshire",2005,32321
+"Falkirk",2011,102375
+"Perth and Kinross",2002,84577
+"Angus",2013,71557
+"Highland",2016,144722
+"Dundee City",2001,93991
+"Falkirk",2003,95942
+"East Ayrshire",2009,79515
+"Perth and Kinross",2001,84300
+"Moray",2005,57916
+"Clackmannanshire",2014,32775
+"East Lothian",2010,63066
+"Midlothian",2010,53129
+"Aberdeenshire",2012,164888
+"Stirling",2003,56952
+"Stirling",2009,57544
+"South Ayrshire",2003,70088
+"Midlothian",2003,51740
+"Aberdeenshire",2009,162513
+"Argyll and Bute",2011,55083
+"South Ayrshire",2004,70488
+"Falkirk",2005,98538
+"Falkirk",2015,101594
+"East Renfrewshire",2016,56795
+"East Renfrewshire",2004,56298
+"East Renfrewshire",2005,56373
+"Falkirk",2001,94525
+"Edinburgh, City of",2003,305247
+"Shetland Islands",2003,14131
+"Orkney Islands",2010,13423
+"East Dunbartonshire",2005,67321
+"Moray",2008,59845
+"Eilean Siar",2001,16240
+"Orkney Islands",2006,12986
+"West Dunbartonshire",2015,57987
+"East Renfrewshire",2011,56523
+"Fife",2012,234689
+"South Lanarkshire",2010,204931
+"Orkney Islands",2012,13508
+"Midlothian",2009,53047
+"Stirling",2005,56890
+"Dundee City",2007,94703
+"Argyll and Bute",2013,53605
+"Perth and Kinross",2011,91903
+"Orkney Islands",2005,12720
+"Falkirk",2012,101939
+"Stirling",2016,60832
+"Angus",2002,68618
+"Eilean Siar",2008,16889
+"Perth and Kinross",2008,89893
+"Dundee City",2006,94128
+"Aberdeenshire",2005,155039
+"Inverclyde",2016,50140
+"Eilean Siar",2011,17014
+"Midlothian",2008,53135
+"Orkney Islands",2016,13367
+"East Ayrshire",2010,79593
+"Highland",2012,146948
+"Dumfries and Galloway",2013,90969
+"Inverclyde",2002,53824
+"North Lanarkshire",2013,220342
+"South Lanarkshire",2012,203891
+"Scottish Borders",2008,70829
+"Clackmannanshire",2003,31380
+"South Ayrshire",2008,70447
+"North Lanarkshire",2009,220983
+"East Lothian",2006,58897
+"North Lanarkshire",2016,219594
+"North Lanarkshire",2011,222222
+"East Ayrshire",2015,77358
+"South Ayrshire",2011,70118
+"Argyll and Bute",2007,57162
+"Shetland Islands",2012,14822
+"West Dunbartonshire",2007,60144
+"East Renfrewshire",2014,56515
+"North Ayrshire",2015,84121
+"Aberdeenshire",2015,166393
+"Moray",2015,59619
+"Fife",2008,234459
+"Falkirk",2008,100794
+"Shetland Islands",2007,14404
+"Perth and Kinross",2014,91952
+"Midlothian",2005,51790
+"East Ayrshire",2007,78757
+"East Renfrewshire",2003,56411
+"North Lanarkshire",2012,221130
+"Glasgow City",2001,381723
+"Argyll and Bute",2006,57337
+"Aberdeen City",2008,149671
+"South Ayrshire",2015,67819
+"West Lothian",2006,111685
+"Eilean Siar",2013,16670
+"Inverclyde",2007,53320
+"Aberdeen City",2009,152776
+"Dundee City",2002,93327
+"West Lothian",2004,109292
+"East Dunbartonshire",2003,68155
+"Eilean Siar",2010,17042
+"Argyll and Bute",2005,56722
+"East Renfrewshire",2008,56247
+"Orkney Islands",2014,13357
+"North Ayrshire",2004,87318
+"Clackmannanshire",2013,33079
+"Inverclyde",2012,52088
+"South Lanarkshire",2009,204129
+"West Lothian",2010,115431
+"West Lothian",2009,115060
+"Orkney Islands",2002,12242
+"Aberdeen City",2010,155364
+"South Ayrshire",2006,70614
+"Edinburgh, City of",2016,353873
+"East Lothian",2013,63555
+"Dundee City",2003,93592
+"East Ayrshire",2013,78250
+"Perth and Kinross",2010,91415
+"Angus",2012,72006
+"Moray",2001,55299
+"Renfrewshire",2003,112375
+"Inverclyde",2003,53649
+"Edinburgh, City of",2004,307126
+"Aberdeenshire",2004,153093
+"East Lothian",2001,55782
+"West Lothian",2014,114979
+"West Dunbartonshire",2005,59936
+"East Lothian",2008,61934
+"Argyll and Bute",2003,57249
+"North Ayrshire",2002,86810
+"South Lanarkshire",2014,202829
+"Perth and Kinross",2012,91791
+"Perth and Kinross",2005,86396
+"Inverclyde",2001,53831
+"East Lothian",2004,57706
+"Renfrewshire",2007,112640
+"East Dunbartonshire",2015,65404
+"Midlothian",2011,53723
+"Moray",2007,58892
+"Dundee City",2016,98454
+"Dumfries and Galloway",2005,93035
+"Angus",2006,70808
+"Angus",2003,68340
+"Aberdeenshire",2013,165275
+"Dundee City",2015,98554
+"Shetland Islands",2011,14969
+"East Renfrewshire",2010,56423
+"Aberdeenshire",2010,164131
+"Scottish Borders",2010,70577
+"Dundee City",2008,95347
+"West Dunbartonshire",2001,59989
+"Argyll and Bute",2016,52336
+"Scottish Borders",2014,68641
+"North Lanarkshire",2003,213219
+"East Dunbartonshire",2008,66430
+"Aberdeenshire",2008,161372
+"East Ayrshire",2014,77754
+"Highland",2011,147972
+"East Ayrshire",2005,77924
+"North Lanarkshire",2005,215698
+"Edinburgh, City of",2005,311845
+"Edinburgh, City of",2015,347874
+"Eilean Siar",2007,16897
+"Fife",2006,233108
+"West Lothian",2001,105736
+"North Ayrshire",2016,83535
+"East Dunbartonshire",2007,66605
+"Argyll and Bute",2015,52274
+"Glasgow City",2002,382113
+"Scottish Borders",2007,70272
+"East Dunbartonshire",2002,68561
+"West Dunbartonshire",2004,59942
+"East Lothian",2015,64200
+"Edinburgh, City of",2007,319239
+"Moray",2006,58614
+"Angus",2008,72057
+"East Renfrewshire",2001,56163
+"Inverclyde",2011,52709
+"Edinburgh, City of",2014,343499
+"Shetland Islands",2005,14317
+"Renfrewshire",2016,113311
+"East Dunbartonshire",2013,65526
+"Edinburgh, City of",2001,306559
+"Moray",2004,57294
+"Inverclyde",2010,52970
+"Fife",2013,233697
+"Shetland Islands",2002,14121
+"Shetland Islands",2014,14676
+"Moray",2010,59747
+"Aberdeen City",2002,144123
+"Stirling",2012,58814
+"Edinburgh, City of",2006,314961
+"Moray",2009,59642
+"Orkney Islands",2009,13259
+"West Lothian",2003,108117
+"Clackmannanshire",2007,33522
+"Aberdeen City",2015,162073
+"Glasgow City",2008,395838
+"Orkney Islands",2008,13179
+"Orkney Islands",2007,13120
+"East Lothian",2011,63333
+"Aberdeen City",2001,144778
+"Eilean Siar",2002,16194
+"Stirling",2011,58730
+"Scottish Borders",2006,69350
+"Edinburgh, City of",2010,330297
+"Moray",2011,59181
+"North Ayrshire",2009,87722
+"Aberdeen City",2007,148037
+"Stirling",2004,56527
+"Edinburgh, City of",2008,321541
+"Glasgow City",2005,383553
+"Renfrewshire",2011,114467
+"Clackmannanshire",2011,33884
+"East Dunbartonshire",2009,66232
+"Fife",2003,227281
+"Moray",2013,59261
+"East Renfrewshire",2009,56153
+"Stirling",2007,57683
+"Midlothian",2015,54771
+"North Lanarkshire",2001,211122
+"East Dunbartonshire",2016,65325
+"Renfrewshire",2006,112176
+"Angus",2004,69389
+"North Ayrshire",2005,87506
+"Dumfries and Galloway",2008,93500
+"Shetland Islands",2015,14619
+"Inverclyde",2006,53290
+"Eilean Siar",2012,16815
+"East Dunbartonshire",2011,65761
+"South Lanarkshire",2006,201889
+"Shetland Islands",2010,14836
+"Highland",2013,145850
+"Dundee City",2013,98905
+"Dumfries and Galloway",2003,91732
+"North Ayrshire",2007,88012
+"Renfrewshire",2015,112611
+"Renfrewshire",2009,113416
+"East Dunbartonshire",2004,67770
+"Fife",2005,231460
+"Argyll and Bute",2004,56921
+"Shetland Islands",2004,14245
+"North Lanarkshire",2002,212299
+"Highland",2010,147072
+"West Lothian",2011,115743
+"Highland",2007,144042
+"South Lanarkshire",2011,205199
+"West Lothian",2008,114172
+"Stirling",2001,56137
+"Aberdeenshire",2002,148551
+"Dundee City",2011,98831
+"Glasgow City",2010,407854
+"Dumfries and Galloway",2004,92516
+"Renfrewshire",2012,113337
+"North Ayrshire",2001,86705
+"North Ayrshire",2012,86316
+"Dumfries and Galloway",2012,91877
+"Orkney Islands",2001,12182
+"Angus",2009,72020
+"Stirling",2006,57413
+"Aberdeen City",2016,160821
+"South Lanarkshire",2013,203383
+"Angus",2010,72311
+"Highland",2002,134048
+"Falkirk",2004,97113
+"Fife",2004,229179
+"East Ayrshire",2004,77657
+"East Dunbartonshire",2014,65717
+"Edinburgh, City of",2012,338344
+"Perth and Kinross",2009,90710
+"East Dunbartonshire",2006,66952
+"Aberdeenshire",2014,166071
+"North Ayrshire",2006,87554
+"Shetland Islands",2006,14324
+"Clackmannanshire",2015,32658
+"Angus",2011,72755
+"South Lanarkshire",2004,199946
+"Fife",2002,225869
+"Scottish Borders",2005,68706
+"Stirling",2002,56453
+"Highland",2009,145924
+"East Renfrewshire",2006,56176
+"Inverclyde",2014,51056
+"West Lothian",2007,113200
+"Shetland Islands",2001,14090
+"Eilean Siar",2005,16671
+"East Ayrshire",2016,77024
+"Fife",2007,234047
+"Angus",2007,71569
+"Scottish Borders",2016,68285
+"Clackmannanshire",2016,32443
+"East Lothian",2007,60287
+"Moray",2012,58298
+"Glasgow City",2015,425305
+"Stirling",2008,57681
+"West Lothian",2016,116181
+"Edinburgh, City of",2011,336611
+"Aberdeen City",2005,143912
+"Argyll and Bute",2014,52959
+"East Ayrshire",2003,77257
+"South Ayrshire",2009,70142
+"Fife",2014,232103
+"Orkney Islands",2011,13554
+"Dumfries and Galloway",2010,93085
+"Glasgow City",2006,385401
+"Highland",2008,145545
+"South Ayrshire",2005,70474
+"Stirling",2013,59004
+"West Lothian",2015,115579
+"Dundee City",2012,98913
+"Argyll and Bute",2010,54990
+"Midlothian",2013,53506
+"Stirling",2010,58049
+"Highland",2005,139926
+"Renfrewshire",2001,112723
+"Fife",2016,232300
+"Aberdeenshire",2016,165548
+"Aberdeenshire",2001,146858
+"Perth and Kinross",2015,92055
+"North Lanarkshire",2015,219345
+"Falkirk",2009,101306
+"Falkirk",2006,99312
+"West Lothian",2002,106919
+"East Lothian",2009,62426
+"Glasgow City",2007,390262
+"Highland",2004,137602
+"Clackmannanshire",2004,31929
+"East Lothian",2012,63508
+"Highland",2006,141870
+"Aberdeen City",2012,158874
+"Aberdeenshire",2003,150519
+"South Lanarkshire",2016,202849
+"South Lanarkshire",2001,196745
+"Moray",2016,59789
+"West Lothian",2005,110315
+"South Lanarkshire",2015,202813
+"Dumfries and Galloway",2014,90248
+"Glasgow City",2012,415853
+"Midlothian",2007,52210
+"Inverclyde",2009,53050
+"Clackmannanshire",2002,31255
+"Clackmannanshire",2010,33793
+"Scottish Borders",2012,69648
+"West Dunbartonshire",2012,59161
+"Inverclyde",2008,53346
+"Dumfries and Galloway",2002,91459
+"Highland",2003,135497
+"Dumfries and Galloway",2001,91585
+"Angus",2014,71419
+"West Dunbartonshire",2009,59953
+"Clackmannanshire",2008,33854
+"Aberdeen City",2003,143332
+"Aberdeenshire",2006,157752
+"East Ayrshire",2006,78213
+"Falkirk",2002,95270
+"Fife",2010,234749
+"East Lothian",2014,63779
+"Perth and Kinross",2004,85667
+"East Dunbartonshire",2001,69431
+"East Dunbartonshire",2010,66022
+"East Lothian",2003,57225
+"Falkirk",2014,101458
+"South Ayrshire",2016,67453
+"Scottish Borders",2011,70590
+"West Dunbartonshire",2002,60140
+"East Ayrshire",2002,76985
+"South Lanarkshire",2002,197422
+"East Ayrshire",2011,79707
+"Eilean Siar",2003,16235
+"Renfrewshire",2002,112463
+"Moray",2003,56915
+"East Ayrshire",2001,77023
+"Glasgow City",2013,416876
+"Highland",2015,145077
+"West Dunbartonshire",2013,58503
+"Eilean Siar",2009,16877
+"West Dunbartonshire",2014,58267
+"Edinburgh, City of",2009,325019
+"Dundee City",2014,98622
+"Midlothian",2001,51809
+"South Ayrshire",2007,70624
+"Glasgow City",2014,419385
+"Perth and Kinross",2013,91396
+"Clackmannanshire",2012,33379
+"Orkney Islands",2003,12404
+"North Ayrshire",2014,84614
+"West Dunbartonshire",2008,60059
+"North Ayrshire",2011,87621
+"North Ayrshire",2010,87583
+"Aberdeen City",2011,157979
+"West Dunbartonshire",2011,59628
+"South Lanarkshire",2005,200794
+"North Lanarkshire",2014,219661
+"Highland",2014,144919
+"Inverclyde",2015,50643
+"Aberdeen City",2004,142686
+"Perth and Kinross",2007,88540
+"North Lanarkshire",2010,221560
+"Argyll and Bute",2002,57252
+"East Ayrshire",2008,79225
+"East Renfrewshire",2012,56267
+"Scottish Borders",2002,67011
+"South Ayrshire",2012,69400
+"Shetland Islands",2008,14469
+"Edinburgh, City of",2013,340812
+"Scottish Borders",2013,69137
+"Renfrewshire",2010,113959
+"North Lanarkshire",2007,218837
+"Fife",2001,224277
+"East Dunbartonshire",2012,65945
+"Clackmannanshire",2001,31138
+"Scottish Borders",2015,68307
+"Argyll and Bute",2012,52683
+"Falkirk",2010,101540
+"Eilean Siar",2016,15954
+"Moray",2002,56048
+"South Ayrshire",2010,70117
+"East Lothian",2016,64703
+"Midlothian",2006,51827
+"Midlothian",2016,55334
+"Eilean Siar",2015,16161
+"Argyll and Bute",2001,57360
+"Dundee City",2010,97318
+"Aberdeen City",2013,160229
+"Dundee City",2009,96358
+"West Dunbartonshire",2006,60063
+"West Dunbartonshire",2003,60006
+"Falkirk",2013,101665
+"East Renfrewshire",2007,56297
+"Dumfries and Galloway",2009,93213
+"Perth and Kinross",2016,92250
+"Orkney Islands",2004,12628
+"Fife",2011,236218
+"Eilean Siar",2014,16368
+"Perth and Kinross",2003,85236
+"Shetland Islands",2013,14736
+"Dumfries and Galloway",2017,88304
+"Renfrewshire",2017,113843
+"Fife",2017,232485
+"Aberdeenshire",2017,164106
+"Midlothian",2018,56721
+"Eilean Siar",2018,15677
+"North Ayrshire",2017,83169
+"Moray",2017,59364
+"Highland",2017,144586
+"West Lothian",2018,116845
+"Highland",2018,144209
+"Clackmannanshire",2018,32193
+"Stirling",2017,60838
+"Dundee City",2017,98770
+"North Ayrshire",2018,82426
+"Edinburgh, City of",2018,361939
+"Eilean Siar",2017,15827
+"South Ayrshire",2018,66726
+"Dundee City",2018,98747
+"Midlothian",2017,56175
+"South Lanarkshire",2017,202763
+"Glasgow City",2018,442207
+"Renfrewshire",2018,114331
+"Perth and Kinross",2018,91666
+"Dumfries and Galloway",2018,87487
+"Aberdeen City",2018,157195
+"North Lanarkshire",2017,219694
+"Inverclyde",2018,49140
+"East Ayrshire",2017,76589
+"Aberdeenshire",2018,162638
+"Shetland Islands",2018,14230
+"East Renfrewshire",2017,57037
+"East Lothian",2018,65270
+"South Lanarkshire",2018,202463
+"Aberdeen City",2017,159013
+"Shetland Islands",2017,14365
+"East Lothian",2017,64933
+"Orkney Islands",2017,13382
+"South Ayrshire",2017,67184
+"Argyll and Bute",2017,51810
+"West Dunbartonshire",2017,57491
+"Stirling",2018,60814
+"Argyll and Bute",2018,51276
+"Moray",2018,58924
+"Clackmannanshire",2017,32380
+"Orkney Islands",2018,13412
+"Glasgow City",2017,437911
+"Scottish Borders",2018,68121
+"Angus",2018,69499
+"West Lothian",2017,116649
+"East Dunbartonshire",2017,65372
+"Falkirk",2017,102271
+"Inverclyde",2017,49776
+"Perth and Kinross",2017,92132
+"Scottish Borders",2017,68295
+"Fife",2018,231847
+"West Dunbartonshire",2018,56998
+"East Dunbartonshire",2018,65039
+"East Ayrshire",2018,76168
+"North Lanarkshire",2018,219221
+"Falkirk",2018,102104
+"East Renfrewshire",2018,56951
+"Angus",2017,70187
+"Edinburgh, City of",2017,358090
+"Clackmannanshire",2019,32133
+"Dumfries and Galloway",2019,87047
+"East Ayrshire",2019,76005
+"East Lothian",2019,65659
+"East Renfrewshire",2019,56819
+"Eilean Siar",2019,15571
+"Falkirk",2019,102329
+"Highland",2019,143706
+"Inverclyde",2019,48689
+"Midlothian",2019,57124
+"Moray",2019,58959
+"North Ayrshire",2019,81740
+"Orkney Islands",2019,13382
+"Scottish Borders",2019,67871
+"Shetland Islands",2019,14036
+"South Ayrshire",2019,66258
+"South Lanarkshire",2019,202175
+"Stirling",2019,60529
+"Aberdeen City",2019,157090
+"Aberdeenshire",2019,161121
+"Argyll and Bute",2019,50754
+"Edinburgh, City of",2019,366508
+"Renfrewshire",2019,114946
+"West Dunbartonshire",2019,56552
+"West Lothian",2019,117121
+"Angus",2019,69265
+"Dundee City",2019,99209
+"East Dunbartonshire",2019,64766
+"Fife",2019,231974
+"Perth and Kinross",2019,91695
+"Glasgow City",2019,447290
+"North Lanarkshire",2019,219435
+"Clackmannanshire",2020,31817
+"Dumfries and Galloway",2020,86182
+"East Ayrshire",2020,75511
+"East Lothian",2020,66007
+"East Renfrewshire",2020,56973
+"Eilean Siar",2020,15392
+"Falkirk",2020,102019
+"Highland",2020,142939
+"Inverclyde",2020,48152
+"Midlothian",2020,57491
+"Moray",2020,58602
+"North Ayrshire",2020,81123
+"Orkney Islands",2020,13386
+"Scottish Borders",2020,67332
+"Shetland Islands",2020,13905
+"South Ayrshire",2020,65767
+"South Lanarkshire",2020,201790
+"Stirling",2020,60411
+"Aberdeen City",2020,156660
+"Aberdeenshire",2020,160000
+"Argyll and Bute",2020,50511
+"Edinburgh, City of",2020,368491
+"Renfrewshire",2020,115055
+"West Dunbartonshire",2020,55988
+"West Lothian",2020,117675
+"Angus",2020,68871
+"Dundee City",2020,98822
+"East Dunbartonshire",2020,64517
+"Fife",2020,231809
+"Perth and Kinross",2020,91349
+"Glasgow City",2020,449539
+"North Lanarkshire",2020,219051
+"Clackmannanshire",2021,31945
+"Dumfries and Galloway",2021,86346
+"East Ayrshire",2021,75654
+"East Lothian",2021,66893
+"East Renfrewshire",2021,57033
+"Eilean Siar",2021,15508
+"Falkirk",2021,102021
+"Highland",2021,144706
+"Inverclyde",2021,47782
+"Midlothian",2021,58532
+"Moray",2021,58935
+"North Ayrshire",2021,81035
+"Orkney Islands",2021,13447
+"Scottish Borders",2021,67642
+"Shetland Islands",2021,13912
+"South Ayrshire",2021,65844
+"South Lanarkshire",2021,202430
+"Stirling",2021,59731
+"Aberdeen City",2021,154229
+"Aberdeenshire",2021,160495
+"Argyll and Bute",2021,51002
+"Edinburgh, City of",2021,366367
+"Renfrewshire",2021,115571
+"West Dunbartonshire",2021,55414
+"West Lothian",2021,118894
+"Angus",2021,69017
+"Dundee City",2021,97773
+"East Dunbartonshire",2021,64307
+"Fife",2021,231635
+"Perth and Kinross",2021,92594
+"Glasgow City",2021,448645
+"North Lanarkshire",2021,219178
+"Scotland",2001,3286645
+"Scotland",2002,3295351
+"Scotland",2003,3303864
+"Scotland",2004,3321295
+"Scotland",2005,3345841
+"Scotland",2006,3368993
+"Scotland",2007,3400324
+"Scotland",2008,3423498
+"Scotland",2009,3441098
+"Scotland",2010,3462158
+"Scotland",2011,3487433
+"Scotland",2012,3473233
+"Scotland",2013,3469223
+"Scotland",2014,3468109
+"Scotland",2015,3477740
+"Scotland",2016,3489931
+"Scotland",2017,3494791
+"Scotland",2018,3492484
+"Scotland",2019,3497758
+"Scotland",2020,3493137
+"Scotland",2021,3494517

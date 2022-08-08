@@ -36,14 +36,13 @@ oowb_count$CPP[oowb_count$CPP == "City of Edinburgh"] <- "Edinburgh, City of"
 oowb_count$CPP[oowb_count$CPP == "Na h-Eileanan Siar"] <- "Eilean Siar"
 oowb_count$CPP[oowb_count$CPP == "Total"] <- "Scotland"
 
-#read in denominator data (api output)
-population <- read.csv("data_update/data/working_age_population_cpp.csv")
-population$Year <- as.numeric(population$Year)
+#read in denominator data (api output) and filter by years which API returns
+population <- read.csv("data_update/data/working_age_population_cpp.csv") %>%
+  filter(Year %in% unique(oowb_count$Year))
 
-#combine numerator and denominator data
+#combine numerator and denominator data and calculate proportion on benefits
 oowb_proportions <- left_join(oowb_count, population, by = c("Year", "CPP")) %>%
-  na.omit() %>%
-  mutate(value = benefit_recipient_count/working_age_pop*100,
+  mutate(value = benefit_recipient_count/working_age_population*100,
          Indicator = "Out of Work Benefits",
          Type = "Raw") %>%
   select(CPP, Year, Indicator, Type, value) %>%

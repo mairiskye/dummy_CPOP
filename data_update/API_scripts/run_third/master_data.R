@@ -1,3 +1,5 @@
+#read all indicator datasets in and combine into masterdata
+
 bweight_dta <- read.csv("data_update/data/healthy_birthweight_cpp.csv")
 childpov_dta <- read.csv("data_update/data/child_poverty_cpp.csv")
 attnment_dta <- read.csv("data_update/data/educational_attainment_cpp.csv")
@@ -9,7 +11,6 @@ crime_dta <- read.csv("data_update/data/crime_rate_cpp.csv")
 wellbeing_dta <- read.csv("data_update/data/wellbeing_cpp.csv")
 median_pay_dta <- read.csv("data_update/data/median_pay_cpp.csv")
 
-#create master data by individual indicator datasets
 masterdata <- rbind(bweight_dta, childpov_dta, attnment_dta, 
                     employment_dta, oowb_dta, p1_bmi_dta, wellbeing_dta,
                     crime_dta, median_pay_dta)

@@ -369,8 +369,9 @@ pre code {
 <h2>Introduction</h2>
 <p>This repository demonstrates proposed improvements to the data
 pipeline for the CPOP dashboard. It obtains Local Authority level data
-for nine indicators from APIs and feeds these into a mock-up of the ‘CPP
-Over Time’ tab of the original dashboard.</p>
+for eleven datasets for nine indicators from five APIs. It then feeds
+this data into a mock-up of the ‘CPP Over Time’ tab of the <a href="https://scotland.shinyapps.io/is-community-planning-outcomes-profile/">original
+dashboard</a> .</p>
 </div>
 <div id="dashboard-structure" class="section level2">
 <h2>Dashboard Structure</h2>
@@ -411,7 +412,8 @@ data in the form of a csv output generated in another script.</p>
 <tr class="odd">
 <td>Healthy Birthweight</td>
 <td>Appropriate Birthweight for Gestational Age</td>
-<td><a href="https://www.opendata.nhs.scot/dataset/births-in-scottish-hospitals/resource/a5d4de3f-e340-455f-b4e4-e26321d09207" target="_blank">PHS</a></td>
+<td><a href="https://www.opendata.nhs.scot/dataset/births-in-scottish-hospitals/resource/a5d4de3f-e340-455f-b4e4-e26321d09207" target="_blank">
+PHS </a> ()</td>
 <td><a href="https://www.opendata.nhs.scot/" target="_blank">PHS Open
 Data API</a></td>
 <td><a href="https://github.com/Public-Health-Scotland/phsopendata" target="_blank">phsopendata()</a></td>
@@ -420,7 +422,8 @@ Data API</a></td>
 <tr class="even">
 <td>Primary 1 Body Mass Index</td>
 <td>Clinical BMI at Council Area Level</td>
-<td><a href="https://www.opendata.nhs.scot/dataset/primary-1-body-mass-index-bmi-statistics/resource/4a3daa0f-1580-4a59-ac9e-64d9a31a4429" target="_blank">PHS</a></td>
+<td><a href="https://www.opendata.nhs.scot/dataset/primary-1-body-mass-index-bmi-statistics/resource/4a3daa0f-1580-4a59-ac9e-64d9a31a4429" target="_blank">
+PHS </a></td>
 <td><a href="https://www.opendata.nhs.scot/" target="_blank">PHS Open
 Data API</a></td>
 <td><a href="https://github.com/Public-Health-Scotland/phsopendata" target="_blank">phsopendata()</a></td>
@@ -430,74 +433,94 @@ Data API</a></td>
 <td>Child Poverty</td>
 <td>Numerator: Children in Low Income Families (Relative Low
 Income)</td>
-<td><a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml" target="_blank">Stat-Xplore</a></td>
-<td><a href="https://stat-xplore.dwp.gov.uk/webapi/online-help/Open-Data-API.html" target="_blank">Stat-Xplore API</a></td>
-<td><a href="https://github.com/houseofcommonslibrary/statxplorer" target="_blank">statxplorer()</a></td>
+<td><a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml" target="_blank">
+Stat-Xplore </a></td>
+<td><a href="https://stat-xplore.dwp.gov.uk/webapi/online-help/Open-Data-API.html" target="_blank">
+Stat-Xplore API </a></td>
+<td><a href="https://github.com/houseofcommonslibrary/statxplorer" target="_blank">
+statxplorer </a></td>
 <td>run_second/child_poverty.R</td>
 </tr>
 <tr class="even">
 <td></td>
 <td>Denominator: Mid-Year Population Estimate (children aged 0-15)</td>
-<td><a href="https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Frecorded-crime" target="_blank">Statistics.gov.scot</a></td>
-<td><a href="https://guides.statistics.gov.scot/category/37-api" target="_blank">statistics.gov.scot API</a></td>
+<td><a href="https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Frecorded-crime" target="_blank">
+Statistics.gov.scot </a></td>
+<td><a href="https://guides.statistics.gov.scot/category/37-api" target="_blank">
+statistics.gov.scot API </a></td>
 <td><em>none</em></td>
 <td>run_first/under_16_population_cpp.R</td>
 </tr>
 <tr class="odd">
 <td>Educational Attainment</td>
 <td>Educational Attainment of School Leavers</td>
-<td><a href="https://statistics.gov.scot/data/educational-attainment-of-school-leavers" target="_blank">statistics.gov.scot</a></td>
-<td><a href="https://guides.statistics.gov.scot/category/37-api" target="_blank">statistics.gov.scot API</a></td>
+<td><a href="https://statistics.gov.scot/data/educational-attainment-of-school-leavers" target="_blank">
+statistics.gov.scot </a></td>
+<td><a href="https://guides.statistics.gov.scot/category/37-api" target="_blank">
+statistics.gov.scot API </a></td>
 <td><em>none</em></td>
 <td>run_second/educational_attainment.R</td>
 </tr>
 <tr class="even">
 <td>Employment Rate</td>
 <td>Annual Population Survey - Employment Rate (16-64)</td>
-<td><a href="https://www.nomisweb.co.uk/datasets/apsnew" target="_blank">Nomis</a></td>
-<td><a href="https://www.nomisweb.co.uk/api/v01/help" target="_blank">Nomis API</a></td>
+<td><a href="https://www.nomisweb.co.uk/datasets/apsnew" target="_blank">
+Nomis </a></td>
+<td><a href="https://www.nomisweb.co.uk/api/v01/help" target="_blank">
+Nomis API </a></td>
 <td><em>none</em></td>
 <td>run_second/employment_rate.R</td>
 </tr>
 <tr class="odd">
 <td>Out of Work Benefits</td>
 <td>Numerator: Benefit Combinations (Out of Work)</td>
-<td><a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml" target="_blank">Stat-Xplore</a></td>
-<td><a href="https://stat-xplore.dwp.gov.uk/webapi/online-help/Open-Data-API.html" target="_blank">Stat-Xplore API</a></td>
-<td><a href="https://github.com/houseofcommonslibrary/statxplorer" target="_blank">statxplorer()</a></td>
+<td><a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml" target="_blank">
+Stat-Xplore </a></td>
+<td><a href="https://stat-xplore.dwp.gov.uk/webapi/online-help/Open-Data-API.html" target="_blank">
+Stat-Xplore API </a></td>
+<td><a href="https://github.com/houseofcommonslibrary/statxplorer" target="_blank">
+statxplorer </a></td>
 <td>run_second/out_of_work_benefits.R</td>
 </tr>
 <tr class="even">
 <td></td>
 <td>Denominator: Mid-Year Population Estimate (Working age 16-64)</td>
-<td><a href="https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Frecorded-crime" target="_blank">Statistics.gov.scot</a></td>
-<td><a href="https://guides.statistics.gov.scot/category/37-api" target="_blank">statistics.gov.scot API</a></td>
+<td><a href="https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Frecorded-crime" target="_blank">
+Statistics.gov.scot </a></td>
+<td><a href="https://guides.statistics.gov.scot/category/37-api" target="_blank">
+statistics.gov.scot API </a></td>
 <td><em>none</em></td>
 <td>run_first/working_age_population_cpp.R</td>
 </tr>
 <tr class="odd">
 <td>Median Pay</td>
 <td>Annual Survey of Hours and Earnings (Table 8)</td>
-<td><a href="https://www.nomisweb.co.uk/datasets/ashe" target="_blank">Nomis</a></td>
-<td><a href="https://www.nomisweb.co.uk/api/v01/help" target="_blank">Nomis API</a></td>
+<td><a href="https://www.nomisweb.co.uk/datasets/ashe" target="_blank">
+Nomis </a></td>
+<td><a href="https://www.nomisweb.co.uk/api/v01/help" target="_blank">
+Nomis API </a></td>
 <td><em>none</em></td>
 <td>run_second/median_pay.R</td>
 </tr>
 <tr class="even">
 <td>Crimes per 1000 population</td>
 <td>Recorded Crimes and Offences</td>
-<td><a href="https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Frecorded-crime" target="_blank">Statistics.gov.scot</a></td>
-<td><a href="https://guides.statistics.gov.scot/category/37-api" target="_blank">statistics.gov.scot API</a></td>
+<td><a href="https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Frecorded-crime" target="_blank">
+Statistics.gov.scot </a></td>
+<td><a href="https://guides.statistics.gov.scot/category/37-api" target="_blank">
+statistics.gov.scot API </a></td>
 <td><em>none</em></td>
 <td>run_second/crime_rate.R</td>
 </tr>
 <tr class="odd">
 <td>Wellbeing</td>
 <td>Annual Personal Wellbeing Estimates</td>
-<td><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/headlineestimatesofpersonalwellbeing" target="_blank">ONS</a></td>
-<td><a href="https://developer.ons.gov.uk/" target="_blank">ONS
-API</a></td>
-<td><a href="https://github.com/kvasilopoulos/onsr" target="_blank">onsr</a></td>
+<td><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/headlineestimatesofpersonalwellbeing" target="_blank">
+ONS </a></td>
+<td><a href="https://developer.ons.gov.uk/" target="_blank"> ONS API
+</a></td>
+<td><a href="https://github.com/kvasilopoulos/onsr" target="_blank">
+onsr </a></td>
 <td>run_second/wellbeing.R</td>
 </tr>
 </tbody>
@@ -508,11 +531,12 @@ API</a></td>
 <h2>Data Update Steps</h2>
 <div id="clone-this-repository" class="section level3">
 <h3>1. Clone This Repository</h3>
-<p>Once you have <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository" target="_blank">cloned</a> this repository, in RStudio, in the console
-run <code>renv::restore()</code> to synchronize your package library
-with that in the lockfile to ensure package dependencies for this
-project are met. Note: if you are asked to run
-<code>renv::activate()</code>, do so.</p>
+<p>Once you have <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">cloned</a>
+this repository, in RStudio, in the console run
+<code>renv::restore()</code> to synchronize your package library with
+that in the lockfile to ensure package dependencies for this project are
+met. Note: if you are asked to run <code>renv::activate()</code>, do
+so.</p>
 </div>
 <div id="check-if-json-update-is-required" class="section level3">
 <h3>2. Check if JSON Update is Required</h3>
@@ -554,7 +578,8 @@ following the order dictated by the folder names: <em>/run_first</em>,
 <div id="out-of-work-benefits-.json-file" class="section level4">
 <h4>Out of Work Benefits .json File</h4>
 <ol style="list-style-type: decimal">
-<li>Visit <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml" target="_blank">Stat-Xplore</a> and log-in/sign up.</li>
+<li>Visit <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml">Stat-Xplore</a>
+and log-in/sign up.</li>
 <li>Go to <em>Datasets &gt; Benefit Combinations &gt; Benefit
 Combinations - Data from February 2019</em>, and click the blue <em>‘New
 Table’</em> button above.</li>
@@ -595,7 +620,8 @@ the file name referenced in the scripts which depend on this file.</p>
 <div id="child-poverty-.json-file" class="section level4">
 <h4>Child Poverty .json File</h4>
 <ol style="list-style-type: decimal">
-<li>Visit <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml" target="_blank">Stat-Xplore</a> and log-in/sign up.</li>
+<li>Visit <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml">Stat-Xplore</a>
+and log-in/sign up.</li>
 <li>Go to <em>Datasets &gt; Children in Low Income Families &gt;
 Relative Low Income</em> and click the blue <em>New Table</em> button
 above.</li>
@@ -654,15 +680,16 @@ and reading them in as objects, keeps scripts tidy.</p>
 </div>
 <div id="sparql-queries" class="section level3">
 <h3>SPARQL Queries</h3>
-<p>The <a href="https://github.com/DataScienceScotland/opendatascot" target="_blank">opendatascot</a> package was used to search metadata for
-the correct dimensions to filter a given dataset by. These were then
-passed with the dataset ID to the function
-<code>opendatascot::ods_print_query()</code> which generates specific
-SPARQL queries. These did not return exact result required but provided
-a good head start before editing the query in the statistics.gov.scot <a href="https://statistics.gov.scot/sparql-beta" target="_blank">SPARQL
-editor</a>. Then the adjusted SPARQL query can be passed to the body of
-an HTTP POST request. There is no dependency on this package for the
-data update, but it is a valuable tool for generating and
+<p>The <a href="https://github.com/DataScienceScotland/opendatascot">opendatascot</a>
+package was used to search metadata for the correct dimensions to filter
+a given dataset by. These dimensions were then passed, with the dataset
+ID, to the function <code>opendatascot::ods_print_query()</code> which
+generates tailored SPARQL queries. These did not return exact result
+required on every occasion, but provided a good starting point which
+coul be tweaked in the statistics.gov.scot <a href="https://statistics.gov.scot/sparql-beta">SPARQL editor</a> . Then
+the adjusted SPARQL query, saved as a txt file, can be passed to the
+body of an HTTP POST request. There is no dependency on this package for
+the annual data update, but it is a valuable tool for generating and
 troubleshooting SPARQL queries.</p>
 <hr />
 </div>

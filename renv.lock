@@ -69,14 +69,6 @@
         "sys"
       ]
     },
-    "backports": {
-      "Package": "backports",
-      "Version": "1.4.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "c39fbec8a30d23e721980b8afb31984c",
-      "Requirements": []
-    },
     "base64enc": {
       "Package": "base64enc",
       "Version": "0.1-3",
@@ -114,6 +106,7 @@
         "htmltools",
         "jquerylib",
         "jsonlite",
+        "memoise",
         "rlang",
         "sass"
       ]
@@ -127,16 +120,6 @@
       "Requirements": [
         "fastmap",
         "rlang"
-      ]
-    },
-    "checkmate": {
-      "Package": "checkmate",
-      "Version": "2.1.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "147e4db6909d8814bb30f671b49d7e06",
-      "Requirements": [
-        "backports"
       ]
     },
     "cli": {
@@ -487,6 +470,17 @@
       "Hash": "7ce2733a9826b3aeb1775d56fd305472",
       "Requirements": []
     },
+    "memoise": {
+      "Package": "memoise",
+      "Version": "2.0.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e2817ccf4a065c5d9d7f2cfbe7c1d78c",
+      "Requirements": [
+        "cachem",
+        "rlang"
+      ]
+    },
     "mgcv": {
       "Package": "mgcv",
       "Version": "1.8-40",
@@ -553,25 +547,6 @@
         "jsonlite",
         "readr",
         "tibble"
-      ]
-    },
-    "opendatascot": {
-      "Package": "opendatascot",
-      "Version": "0.0.0.9000",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "opendatascot",
-      "RemoteUsername": "datasciencescotland",
-      "RemoteRef": "refPeriod-fix",
-      "RemoteSha": "864ba7c75013876237a68cdf759dcec064129fc4",
-      "Hash": "f50feac4446bf9c63fa2e615cf4a262f",
-      "Requirements": [
-        "checkmate",
-        "glue",
-        "httr",
-        "readr",
-        "stringr"
       ]
     },
     "openssl": {

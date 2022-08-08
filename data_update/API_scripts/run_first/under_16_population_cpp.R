@@ -3,6 +3,7 @@
 library(httr)
 library(magrittr)
 library(dplyr)
+library(readr)
 
 #read in sparql query from file
 sparql <- read_file("data_update/sparql/population_under_16_cpp.txt")

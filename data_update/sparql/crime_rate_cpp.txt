@@ -1,0 +1,13 @@
+PREFIX qb: <http://purl.org/linked-data/cube#>
+select    ?Code ?CPP  ?Year ?value 
+where { ?data qb:dataSet <http://statistics.gov.scot/data/recorded-crime>. 
+  ?data <http://purl.org/linked-data/sdmx/2009/dimension#refArea> ?refArea.
+  ?refArea <http://www.w3.org/2004/02/skos/core#notation> ?Code.
+  ?data <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> ?refPeriod.
+  ?refPeriod <http://www.w3.org/2000/01/rdf-schema#label> ?Year.
+  ?refArea <http://www.w3.org/2000/01/rdf-schema#label> ?CPP.
+  ?data <http://purl.org/linked-data/cube#measureType> ?measureType.
+  ?data <http://statistics.gov.scot/def/dimension/crimeOrOffence> ?crimeOrOffence.
+  ?data ?measureType ?value. 
+  filter (regex(str(?crimeOrOffence ), 'all-crimes$')) 
+  filter (regex(str(?measureType ), 'ratio$'))  }

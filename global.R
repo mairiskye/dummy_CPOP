@@ -6,15 +6,13 @@ library(plotly)
 library(ggplot2)
 library(magrittr)
 
-#MASTERDATA - update file name manually for data update.
-CPPdta <- readr::read_csv("cpop_data/masterdata_05_08_22.csv")
-
-Metadata <- readr::read_csv("cpop_data/Metadata.csv")
+#UPDATE ME - update file name manually for data update.
+CPPdta <- readr::read_csv("cpop_data/masterdata_08_08_22.csv")
 
 #global variables extracted from server script
 indicators <- c("Healthy Birthweight", "Primary 1 Body Mass Index", "Child Poverty",
                   "Attainment", "Employment Rate",
-                   "Out of Work Benefits")
+                   "Out of Work Benefits", "Wellbeing", "Crime", "Median Pay")
 
 #Create list of CPP names for use in UI drop down selection
 CPPNames <- c("Aberdeen City","Aberdeenshire","Angus","Argyll and Bute",

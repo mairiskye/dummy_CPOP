@@ -367,20 +367,20 @@ pre code {
 
 <div id="introduction" class="section level2">
 <h2>Introduction</h2>
-<p>This repo is to demonstrate proposed improvements to the data
-pipeline for the CPOP dashboard. It obtains data for six indicators from
-APIs and feeds these into a mock-up of the ‘CPP Over Time’ tab of the
-original dashboard.</p>
+<p>This repository demonstrates proposed improvements to the data
+pipeline for the CPOP dashboard. It obtains Local Authority level data
+for nine indicators from APIs and feeds these into a mock-up of the ‘CPP
+Over Time’ tab of the original dashboard.</p>
 </div>
 <div id="dashboard-structure" class="section level2">
 <h2>Dashboard Structure</h2>
 <p>The dashboard itself is created from three standard shiny scripts
-<code>global.R</code> <code>server.R</code> and <code>ui.R</code>. The
-data required is read into the <code>global.R</code> from the
-<strong>cpop_data</strong> folder.</p>
-<p>The <strong>data_update/API_queries</strong> folder contains a series
-of scripts which query three APIs for six indicator (and two indicator
-denominator) datasets (as outlined below) at Local Authority level.</p>
+<code>global.R</code> <code>server.R</code> and <code>ui.R</code>.
+Dashboard data is read into the <code>global.R</code> from the
+<em>/cpop_data</em> folder.</p>
+<p>The <em>/data_update/API_queries</em> folder contains a series of
+scripts which query data from five APIs for nine indicator (and two
+indicator denominator) datasets at Local Authority level.</p>
 <table style="width:100%;">
 <colgroup>
 <col width="16%" />
@@ -405,7 +405,7 @@ denominator) datasets (as outlined below) at Local Authority level.</p>
 <td>Healthy Birthweight</td>
 <td>Appropriate Birthweight for Gestational Age</td>
 <td><a href="https://www.opendata.nhs.scot/dataset/births-in-scottish-hospitals/resource/a5d4de3f-e340-455f-b4e4-e26321d09207">PHS</a></td>
-<td>PHS Open Data API</td>
+<td><a href="https://www.opendata.nhs.scot/">PHS Open Data API</a></td>
 <td><a href="https://github.com/Public-Health-Scotland/phsopendata">phsopendata()</a></td>
 <td>run_second/healthy_birthweight.R</td>
 </tr>
@@ -413,7 +413,7 @@ denominator) datasets (as outlined below) at Local Authority level.</p>
 <td>Primary 1 Body Mass Index</td>
 <td>Clinical BMI at Council Area Level</td>
 <td><a href="https://www.opendata.nhs.scot/dataset/primary-1-body-mass-index-bmi-statistics/resource/4a3daa0f-1580-4a59-ac9e-64d9a31a4429">PHS</a></td>
-<td>PHS Open Data API</td>
+<td><a href="https://www.opendata.nhs.scot/">PHS Open Data API</a></td>
 <td><a href="https://github.com/Public-Health-Scotland/phsopendata">phsopendata()</a></td>
 <td>run_second/primary_1_body_mass_index.R</td>
 </tr>
@@ -422,7 +422,8 @@ denominator) datasets (as outlined below) at Local Authority level.</p>
 <td>Numerator: Children in Low Income Families (Relative Low
 Income)</td>
 <td><a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml">Stat-Xplore</a></td>
-<td>Stat-Xplore API</td>
+<td><a href="https://stat-xplore.dwp.gov.uk/webapi/online-help/Open-Data-API.html">Stat-Xplore
+API</a></td>
 <td><a href="https://github.com/houseofcommonslibrary/statxplorer">statxplorer()</a></td>
 <td>run_second/child_poverty.R</td>
 </tr>
@@ -438,7 +439,8 @@ Income)</td>
 <td>Educational Attainment</td>
 <td>Educational Attainment of School Leavers</td>
 <td><a href="https://statistics.gov.scot/data/educational-attainment-of-school-leavers">statistics.gov.scot</a></td>
-<td>Statistics.gov.scot API</td>
+<td><a href="https://guides.statistics.gov.scot/category/37-api">statistics.gov.scot
+API</a></td>
 <td><em>none</em></td>
 <td>run_second/educational_attainment.R</td>
 </tr>
@@ -454,9 +456,10 @@ Income)</td>
 <td>Out of Work Benefits</td>
 <td>Numerator: Benefit Combinations (Out of Work)</td>
 <td><a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml">Stat-Xplore</a></td>
-<td>Stat-Xplore API</td>
+<td><a href="https://stat-xplore.dwp.gov.uk/webapi/online-help/Open-Data-API.html">Stat-Xplore
+API</a></td>
 <td><a href="https://github.com/houseofcommonslibrary/statxplorer">statxplorer()</a></td>
-<td>run_second/out_of_work_benefirs.R</td>
+<td>run_second/out_of_work_benefits.R</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -466,41 +469,38 @@ Income)</td>
 <td><em>none</em></td>
 <td>run_first/child_and_working_age_populations.R</td>
 </tr>
+<tr class="odd">
+<td>Median Pay</td>
+<td>Annual Survey of Hours and Earnings (Table 8)</td>
+<td><a href="https://www.nomisweb.co.uk/datasets/ashe">Nomis</a></td>
+<td><a href="https://www.nomisweb.co.uk/api/v01/help">Nomis API</a></td>
+<td><em>none</em></td>
+<td>run_second/median_pay.R</td>
+</tr>
+<tr class="even">
+<td>Crimes per 1000 population</td>
+<td>Recorded Crimes and Offences</td>
+<td><a href="https://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Frecorded-crime">Statistics.gov.scot</a></td>
+<td><a href="https://guides.statistics.gov.scot/category/37-api">statistics.gov.scot
+API</a></td>
+<td><em>none</em></td>
+<td>run_second/crime_rate.R</td>
+</tr>
+<tr class="odd">
+<td>Wellbeing</td>
+<td>Annual Personal Wellbeing Estimates</td>
+<td><a href="https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/headlineestimatesofpersonalwellbeing">ONS</a></td>
+<td><a href="https://developer.ons.gov.uk/">ONS API</a></td>
+<td><a href="https://github.com/kvasilopoulos/onsr">onsr</a></td>
+<td>run_second/wellbeing.R</td>
+</tr>
 </tbody>
 </table>
-<p>Within the <strong>data_update/API_queries</strong> folder, the
-script are split into two folders (<strong>Run first</strong>, and
-<strong>Run second</strong>). This is because the first scripts obtain
-population data which is required by some in the second set as
-denominator values.</p>
-<div id="helper-scripts" class="section level3">
-<h3>Helper Scripts</h3>
-<div id="make_nomis_uris" class="section level4">
-<h4>make_nomis_uris</h4>
-<p>The <strong>data_update/make_nomis_uris</strong> folder contains
-scripts which programatically extract parameter IDs from NOMIS dataset
-metadata which must be appended to the query URI (without which the
-response from the API is too large and is rate-limited at 25,000
-observations). These script use the <code>nomir</code> package which can
-be found on <a href="https://github.com/ropensci/nomisr">git hub</a>.
-Any script which queries NOMIS has a corresponding make_nomis_uri
-script, but this is available solely to troubleshoot any problems should
-the API request return an error, and the data update process is not
-dependant on these.</p>
-</div>
-<div id="look_ups" class="section level4">
-<h4>look_ups</h4>
-<p>Some APIs return an S-Code for geography and some return council
-names. In order to ultimately match these, a geography code look-up csv
-is read in and joined to datasets which lack geography names.</p>
-</div>
-<div id="api_keys" class="section level4">
-<h4>API_keys</h4>
-<p>The Stat-Xplore API requires authentication in the form of an API Key
-which is saved in this folder as a .txt file.</p>
+<p>Within the <em>/data_update/API_queries</em> folder, the scripts are
+split into three folders ( <em>/run_first</em>, <em>/run_second</em> and
+<em>/run_third</em>). This is because some scripts depend on denominator
+data in the form of a csv output generated in another script.</p>
 <hr />
-</div>
-</div>
 </div>
 <div id="data-update-steps" class="section level2">
 <h2>Data update steps</h2>
@@ -509,47 +509,58 @@ which is saved in this folder as a .txt file.</p>
 <p>Once you have cloned the repository, in the console run
 <code>renv::restore()</code> to synchronize your package library with
 that in the lockfile to ensure package dependencies for this project are
-met.</p>
+met. Note: if you are asked to run <code>renv::activate()</code>, do
+so.</p>
 </div>
 <div id="obtain-.json-files-from-statxplore" class="section level3">
 <h3>2. Obtain .json files from StatXplore</h3>
-<p>The StatXplore API queries use .json files which are generated
-through the StatXplore table-generator UI. These query specific
-time-series dates so have to be manually updated as new data becomes
-available (once annually). Detailed instruction for how to obtain the
-exact dataset are written below.</p>
+<p>The StatXplore API queries use <code>.json</code> files which can be
+auto-generated using the StatXplore table-generator UI. These query
+specific time-series dates so have to be manually updated as new data
+becomes available (once annually). Detailed instruction for how to
+obtain the exact dataset are written <a href="#obtain-json-files">below</a>.</p>
+</div>
+<div id="update-file-references" class="section level3">
+<h3>3. Update file references</h3>
+<p>Within <em>/data_update/API_scripts/run_second/</em> you will find
+two scripts ( <em>child_poverty.R</em> and
+<em>out_of_work_benefits.R</em>) which need to be updated with most
+recent .json file name. Search for the term <code>UPDATE ME</code> which
+signposts the line which needs updating. For example:</p>
+<p><code>#UPDATE ME</code>
+<code>results &lt;- statxplorer::fetch_table(filename = &quot;data_update/json/child_poverty_07_21.json&quot;)</code></p>
+<p>should become…</p>
+<p><code>#UPDATE ME</code>
+<code>results &lt;- statxplorer::fetch_table(filename = &quot;data_update/json/child_poverty_08_22.json&quot;)</code></p>
 </div>
 <div id="run-api-scripts" class="section level3">
-<h3>3. Run API scripts</h3>
-<p>Run the scripts within the
-<strong>data_update/API_scripts/run_first</strong> folder, and then run
-the scripts within the
-<strong>data_update/API_scripts/run_second</strong> folder. These each
-generate a csv in the <strong>data_update/data</strong> folder. They are
-seperated in this way because <strong>run_first</strong> scripts write
-population data to csv to be used as denominator data in <em>Out of Work
-Benefits</em> and <em>Child Poverty</em> rate calculations with the
-<strong>run_second</strong> folder.</p>
+<h3>4. Run API scripts</h3>
+<p>Run the <code>/data_update/update_data.R</code> file. This runs all
+individual API query scripts (within <em>/data_update/API_queries</em>)
+in the correct order. Since this involves 10 successive API calls it
+might take a minute or two to complete.</p>
 </div>
-<div id="create-master-data" class="section level3">
-<h3>4. Create master data</h3>
-<p>Run the <strong>data_update/master_data.R</strong> file which writes
-a csv of the master data to the folder <strong>cpop_data</strong> named
-<em>masterdata_dd_mm_yy.csv</em> (where dd_mm_yy corresponds to the day
-when this step is done.)</p>
+<div id="find-masterdata" class="section level3">
+<h3>4. Find Masterdata</h3>
+<p>Navigate to the <em>/cpop_data</em>` folder where there will be
+multiple files named <em>masterdata_dd_mm_yy.csv</em>. Ensure there is
+one with the current date - this is the output from the last step.</p>
 </div>
-<div id="update-dashboard-to-read-latest-data" class="section level3">
-<h3>5. Update dashboard to read latest data</h3>
-<p>Take note of the name of the materdata csv in the
-<strong>cpop_data</strong> and navigate to these lines which are the
-first in the <code>global.R</code> script:</p>
-<p><code>#MASTERDATA - update file name manually for data update. CPPdta &lt;- readr::read_csv(&quot;cpop_data/masterdata_04_08_22.csv&quot;)</code></p>
-<p>update the date so that it corresponds to the most recent data
-file.</p>
-<p>The dashboard should show the latest data.</p>
+<div id="update-global.r-script" class="section level3">
+<h3>5. Update global.R script</h3>
+<p>In the <code>global.R</code> file, find these first lines:</p>
+<p><code>#UPDATE ME - update file name manually for data update.</code>
+<code>CPPdta &lt;- readr::read_csv(&quot;cpop_data/masterdata_04_08_22.csv&quot;)</code></p>
+<p>Update the file name date so that it corresponds to the newly updated
+masterdata data file.</p>
+<p>The dashboard should show the latest data when run.</p>
 <hr />
-<div id="obtain-out-of-work-benefits-.json-file" class="section level4">
-<h4>Obtain out of work benefits .json file</h4>
+</div>
+</div>
+<div id="obtain-json-files" class="section level2">
+<h2>Obtain JSON Files</h2>
+<div id="out-of-work-benefits-.json-file" class="section level4">
+<h4>Out of Work Benefits .json File</h4>
 <ol style="list-style-type: decimal">
 <li>Visit <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml">Stat-Xplore</a>
 and log-in/sign up.</li>
@@ -573,17 +584,17 @@ warned about entering large table mode, select okay.</li>
 <li>In the top right corner there is a select drop down menu, select
 <em>Open Data API Query (.json)</em> then press go. This will download a
 json file.</li>
-<li>save this file to <strong>data_update/json</strong> with the name
-‘oowb_mm_yy.json’ (with the relevant month_year). Moving older json to
-historic_json after. (The above steps can be repeated to obtain
+<li>save this file to <em>/data_update/json/</em> with the name
+<em>oowb_mm_yy.json</em> (with the relevant month_year). Moving older
+json to historic_json after. (The above steps can be repeated to obtain
 oowb_historic data by clicking on ‘Benefit Combinations - Data to
 November 2018’ at step 2 - whilst this dataset will not include more
 years, there may be historic updates to the data so it would be worth
 updating the json file).</li>
 </ol>
 </div>
-<div id="obtain-child-poverty-json-file" class="section level4">
-<h4>Obtain child poverty json file</h4>
+<div id="child-poverty-.json-file" class="section level4">
+<h4>Child Poverty .json File</h4>
 <ol style="list-style-type: decimal">
 <li>Visit <a href="https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml">Stat-Xplore</a>
 and log-in/sign up.</li>
@@ -603,10 +614,50 @@ to add to table.</li>
 <li>In the top right corner there is a select drop down menu, select
 <em>Open Data API Query (.json)</em> then press go. This will download a
 json file.</li>
-<li>Save this file to <strong>data_update/json</strong> with the name
-‘child_poverty_mm_yy.json’ (with the relevant month_year of download).
-Moving older json to historic_json after.</li>
+<li>Save this file to <em>/data_update/json</em> with the name
+<em>child_poverty_mm_yy.json</em> (with the relevant month_year of
+download). Moving older json to historic_json after.</li>
 </ol>
+<hr />
+</div>
+<div id="a-note-on-other-folders-helpers" class="section level3">
+<h3>A note on other folders (helpers)</h3>
+<div id="make_nomis_uris" class="section level4">
+<h4>make_nomis_uris</h4>
+<p>The <strong>data_update/make_nomis_uris</strong> folder contains
+scripts which programatically extract parameter IDs from NOMIS dataset
+metadata which must be appended to the query URI (without which the
+response from the API is too large and is rate-limited at 25,000
+observations). These script use the <code>nomir</code> package which can
+be found on <a href="https://github.com/ropensci/nomisr">git hub</a>.
+Any script which queries NOMIS has a corresponding make_nomis_uri
+script, but this is available solely to troubleshoot any problems should
+the API request return an error, and the data update process is not
+dependant on these.</p>
+</div>
+<div id="look_ups" class="section level4">
+<h4>look_ups</h4>
+<p>Some APIs return an S-Code for geography and some return council
+names. In order to ultimately match these, a geography code look-up csv
+is read in and joined to datasets which lack geography names.</p>
+</div>
+<div id="api_keys" class="section level4">
+<h4>API_keys</h4>
+<p>The Stat-Xplore API requires authentication in the form of an API Key
+which is saved in this folder as a .txt file.</p>
+</div>
+<div id="sparql-queries" class="section level4">
+<h4>sparql queries</h4>
+<p>The <a href="https://github.com/DataScienceScotland/opendatascot">opendatascot</a>
+package was used to search metadata for the correct dimensions to filter
+a given dataset by. These were then passed with the dataset ID to the
+function <code>opendatascot::ods_print_query()</code> which generates
+specific SPARQL queries. These not return exact result required but
+provided a good head start before editing the query in the
+statistics.gov.scot <a href="https://statistics.gov.scot/sparql-beta">SPARQL editor</a>. Then
+the query could be made with a http POST request, meaning there is no
+dependency on this package in the scripts.</p>
+<hr />
 </div>
 </div>
 </div>

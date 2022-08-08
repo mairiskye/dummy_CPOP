@@ -4,7 +4,7 @@ library(stringr)
 library(zoo)
 
 empl_rate <- httr::GET("https://www.nomisweb.co.uk/api/v01/dataset/NM_17_5.data.csv?geography=2013265931TYPE432&freq=a&measures=20599&variable=45&time=2008,latest&select=,DATE_NAME,GEOGRAPHY_NAME,OBS_VALUE")
-raw_employment_rate_data <- content(empl_rate, as = "parsed", type = "text/csv") %>%
+raw_employment_rate_data <- content(empl_rate, as = "parsed", type = "text/csv", encoding = "UTF-8") %>%
   as_tibble()
 
 names(raw_employment_rate_data) <- c("Year", "CPP", "Rate")

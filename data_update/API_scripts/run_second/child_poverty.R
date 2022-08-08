@@ -5,23 +5,20 @@ library(statxplorer) #available here: https://github.com/houseofcommonslibrary/s
 library(magrittr)
 library(dplyr)
 
-#read in denominator data and reformat years to match numerator (api output)
-child_population <- read.csv("data_update/data/children_population_cpp.csv")
-child_population$Year <- as.character(paste0(child_population$Year - 1,"/", child_population$Year - 2000))
-child_population$children_population <- as.numeric(child_population$children_population)
-
 #provide key to api
 statxplorer::load_api_key("data_update/API_keys/statxpl_apikey.txt")
 
+#UPDATE ME
 #query statXplore api fo LA level relative low income child poverty data (from json file)
 results <- statxplorer::fetch_table(filename = "data_update/json/child_poverty_07_22.json")
+
 #extract dataframe from response
 data <- results$dfs$`Relative Low Income`
+
 #rename variables
 names(data) <- c("CPP", "Year", "Age", "Count")
-#extract data for ages 0-15
 
-#insurance filtering, in case api query not done correctly
+#extract data for ages 0-15
 extract_age <- data %>%
   dplyr::filter(Age == c("0-4", "5-10", "11-15"))
 
@@ -35,6 +32,11 @@ child_pov_count <- extract_age %>%
 child_pov_count$CPP[child_pov_count$CPP == "City of Edinburgh"] <- "Edinburgh, City of"
 child_pov_count$CPP[child_pov_count$CPP == "Na h-Eileanan Siar"] <- "Eilean Siar"
 child_pov_count$CPP[child_pov_count$CPP == "Total"] <- "Scotland"
+
+#read in denominator data and reformat years to match numerator (api output)
+child_population <- read.csv("data_update/data/children_population_cpp.csv")
+child_population$Year <- as.character(paste0(child_population$Year - 1,"/", child_population$Year - 2000))
+child_population$children_population <- as.numeric(child_population$children_population)
 
 #join numerator and denominator data and calculate child poverty rate
 child_pov_proportions <- dplyr::left_join(child_pov_count, child_population, by = c("Year", "CPP")) %>%

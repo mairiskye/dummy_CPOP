@@ -1,0 +1,331 @@
+"Year","CPP","working_age_pop"
+2011,"Aberdeen City",158000
+2011,"Aberdeenshire",165000
+2011,"Angus",72800
+2011,"Argyll and Bute",55100
+2011,"Clackmannanshire",33900
+2011,"Dumfries and Galloway",93000
+2011,"Dundee City",98800
+2011,"East Ayrshire",79700
+2011,"East Dunbartonshire",65800
+2011,"East Lothian",63300
+2011,"East Renfrewshire",56500
+2011,"Edinburgh, City of",336600
+2011,"Eilean Siar",17000
+2011,"Falkirk",102400
+2011,"Fife",236200
+2011,"Glasgow City",415000
+2011,"Highland",148000
+2011,"Inverclyde",52700
+2011,"Midlothian",53700
+2011,"Moray",59200
+2011,"North Ayrshire",87600
+2011,"North Lanarkshire",222200
+2011,"Orkney Islands",13600
+2011,"Perth and Kinross",91900
+2011,"Renfrewshire",114500
+2011,"Scottish Borders",70600
+2011,"Shetland Islands",15000
+2011,"South Ayrshire",70100
+2011,"South Lanarkshire",205200
+2011,"Stirling",58700
+2011,"West Dunbartonshire",59600
+2011,"West Lothian",115700
+2012,"Aberdeen City",158900
+2012,"Aberdeenshire",164900
+2012,"Angus",72000
+2012,"Argyll and Bute",52700
+2012,"Clackmannanshire",33400
+2012,"Dumfries and Galloway",91900
+2012,"Dundee City",98900
+2012,"East Ayrshire",78900
+2012,"East Dunbartonshire",65900
+2012,"East Lothian",63500
+2012,"East Renfrewshire",56300
+2012,"Edinburgh, City of",338300
+2012,"Eilean Siar",16800
+2012,"Falkirk",101900
+2012,"Fife",234700
+2012,"Glasgow City",415900
+2012,"Highland",146900
+2012,"Inverclyde",52100
+2012,"Midlothian",53600
+2012,"Moray",58300
+2012,"North Ayrshire",86300
+2012,"North Lanarkshire",221100
+2012,"Orkney Islands",13500
+2012,"Perth and Kinross",91800
+2012,"Renfrewshire",113300
+2012,"Scottish Borders",69600
+2012,"Shetland Islands",14800
+2012,"South Ayrshire",69400
+2012,"South Lanarkshire",203900
+2012,"Stirling",58800
+2012,"West Dunbartonshire",59200
+2012,"West Lothian",115600
+2013,"Aberdeen City",160200
+2013,"Aberdeenshire",165300
+2013,"Angus",71600
+2013,"Argyll and Bute",53600
+2013,"Clackmannanshire",33100
+2013,"Dumfries and Galloway",91000
+2013,"Dundee City",98900
+2013,"East Ayrshire",78300
+2013,"East Dunbartonshire",65500
+2013,"East Lothian",63600
+2013,"East Renfrewshire",56300
+2013,"Edinburgh, City of",340800
+2013,"Eilean Siar",16700
+2013,"Falkirk",101700
+2013,"Fife",233700
+2013,"Glasgow City",416900
+2013,"Highland",145900
+2013,"Inverclyde",51700
+2013,"Midlothian",53500
+2013,"Moray",59300
+2013,"North Ayrshire",85400
+2013,"North Lanarkshire",220300
+2013,"Orkney Islands",13500
+2013,"Perth and Kinross",91400
+2013,"Renfrewshire",112700
+2013,"Scottish Borders",69100
+2013,"Shetland Islands",14700
+2013,"South Ayrshire",69000
+2013,"South Lanarkshire",203400
+2013,"Stirling",59000
+2013,"West Dunbartonshire",58500
+2013,"West Lothian",114900
+2014,"Aberdeen City",161100
+2014,"Aberdeenshire",166100
+2014,"Angus",71400
+2014,"Argyll and Bute",53000
+2014,"Clackmannanshire",32800
+2014,"Dumfries and Galloway",90200
+2014,"Dundee City",98600
+2014,"East Ayrshire",77800
+2014,"East Dunbartonshire",65700
+2014,"East Lothian",63800
+2014,"East Renfrewshire",56500
+2014,"Edinburgh, City of",343500
+2014,"Eilean Siar",16400
+2014,"Falkirk",101500
+2014,"Fife",232100
+2014,"Glasgow City",419400
+2014,"Highland",144900
+2014,"Inverclyde",51100
+2014,"Midlothian",54300
+2014,"Moray",59200
+2014,"North Ayrshire",84600
+2014,"North Lanarkshire",219700
+2014,"Orkney Islands",13400
+2014,"Perth and Kinross",92000
+2014,"Renfrewshire",112500
+2014,"Scottish Borders",68600
+2014,"Shetland Islands",14700
+2014,"South Ayrshire",68300
+2014,"South Lanarkshire",202800
+2014,"Stirling",59100
+2014,"West Dunbartonshire",58300
+2014,"West Lothian",115000
+2015,"Aberdeen City",162100
+2015,"Aberdeenshire",166400
+2015,"Angus",71200
+2015,"Argyll and Bute",52300
+2015,"Clackmannanshire",32700
+2015,"Dumfries and Galloway",89700
+2015,"Dundee City",98600
+2015,"East Ayrshire",77400
+2015,"East Dunbartonshire",65400
+2015,"East Lothian",64200
+2015,"East Renfrewshire",56500
+2015,"Edinburgh, City of",347900
+2015,"Eilean Siar",16200
+2015,"Falkirk",101600
+2015,"Fife",231600
+2015,"Glasgow City",425300
+2015,"Highland",145100
+2015,"Inverclyde",50600
+2015,"Midlothian",54800
+2015,"Moray",59600
+2015,"North Ayrshire",84100
+2015,"North Lanarkshire",219300
+2015,"Orkney Islands",13400
+2015,"Perth and Kinross",92100
+2015,"Renfrewshire",112600
+2015,"Scottish Borders",68300
+2015,"Shetland Islands",14600
+2015,"South Ayrshire",67800
+2015,"South Lanarkshire",202800
+2015,"Stirling",60200
+2015,"West Dunbartonshire",58000
+2015,"West Lothian",115600
+2016,"Aberdeen City",160800
+2016,"Aberdeenshire",165500
+2016,"Angus",70600
+2016,"Argyll and Bute",52300
+2016,"Clackmannanshire",32400
+2016,"Dumfries and Galloway",89000
+2016,"Dundee City",98500
+2016,"East Ayrshire",77000
+2016,"East Dunbartonshire",65300
+2016,"East Lothian",64700
+2016,"East Renfrewshire",56800
+2016,"Edinburgh, City of",353900
+2016,"Eilean Siar",16000
+2016,"Falkirk",101900
+2016,"Fife",232300
+2016,"Glasgow City",432800
+2016,"Highland",144700
+2016,"Inverclyde",50100
+2016,"Midlothian",55300
+2016,"Moray",59800
+2016,"North Ayrshire",83500
+2016,"North Lanarkshire",219600
+2016,"Orkney Islands",13400
+2016,"Perth and Kinross",92300
+2016,"Renfrewshire",113300
+2016,"Scottish Borders",68300
+2016,"Shetland Islands",14600
+2016,"South Ayrshire",67500
+2016,"South Lanarkshire",202800
+2016,"Stirling",60800
+2016,"West Dunbartonshire",57900
+2016,"West Lothian",116200
+2017,"Aberdeen City",159000
+2017,"Aberdeenshire",164100
+2017,"Angus",70200
+2017,"Argyll and Bute",51800
+2017,"Clackmannanshire",32400
+2017,"Dumfries and Galloway",88300
+2017,"Dundee City",98800
+2017,"East Ayrshire",76600
+2017,"East Dunbartonshire",65400
+2017,"East Lothian",64900
+2017,"East Renfrewshire",57000
+2017,"Edinburgh, City of",358100
+2017,"Eilean Siar",15800
+2017,"Falkirk",102300
+2017,"Fife",232500
+2017,"Glasgow City",437900
+2017,"Highland",144600
+2017,"Inverclyde",49800
+2017,"Midlothian",56200
+2017,"Moray",59400
+2017,"North Ayrshire",83200
+2017,"North Lanarkshire",219700
+2017,"Orkney Islands",13400
+2017,"Perth and Kinross",92100
+2017,"Renfrewshire",113800
+2017,"Scottish Borders",68300
+2017,"Shetland Islands",14400
+2017,"South Ayrshire",67200
+2017,"South Lanarkshire",202800
+2017,"Stirling",60800
+2017,"West Dunbartonshire",57500
+2017,"West Lothian",116600
+2018,"Aberdeen City",157200
+2018,"Aberdeenshire",162600
+2018,"Angus",69500
+2018,"Argyll and Bute",51300
+2018,"Clackmannanshire",32200
+2018,"Dumfries and Galloway",87500
+2018,"Dundee City",98700
+2018,"East Ayrshire",76200
+2018,"East Dunbartonshire",65000
+2018,"East Lothian",65300
+2018,"East Renfrewshire",57000
+2018,"Edinburgh, City of",361900
+2018,"Eilean Siar",15700
+2018,"Falkirk",102100
+2018,"Fife",231800
+2018,"Glasgow City",442200
+2018,"Highland",144200
+2018,"Inverclyde",49100
+2018,"Midlothian",56700
+2018,"Moray",58900
+2018,"North Ayrshire",82400
+2018,"North Lanarkshire",219200
+2018,"Orkney Islands",13400
+2018,"Perth and Kinross",91700
+2018,"Renfrewshire",114300
+2018,"Scottish Borders",68100
+2018,"Shetland Islands",14200
+2018,"South Ayrshire",66700
+2018,"South Lanarkshire",202500
+2018,"Stirling",60800
+2018,"West Dunbartonshire",57000
+2018,"West Lothian",116800
+2019,"Aberdeen City",157100
+2019,"Aberdeenshire",161100
+2019,"Angus",69300
+2019,"Argyll and Bute",50800
+2019,"Clackmannanshire",32100
+2019,"Dumfries and Galloway",87000
+2019,"Dundee City",99200
+2019,"East Ayrshire",76000
+2019,"East Dunbartonshire",64800
+2019,"East Lothian",65700
+2019,"East Renfrewshire",56800
+2019,"Edinburgh, City of",366500
+2019,"Eilean Siar",15600
+2019,"Falkirk",102300
+2019,"Fife",232000
+2019,"Glasgow City",447300
+2019,"Highland",143700
+2019,"Inverclyde",48700
+2019,"Midlothian",57100
+2019,"Moray",59000
+2019,"North Ayrshire",81700
+2019,"North Lanarkshire",219400
+2019,"Orkney Islands",13400
+2019,"Perth and Kinross",91700
+2019,"Renfrewshire",114900
+2019,"Scottish Borders",67900
+2019,"Shetland Islands",14000
+2019,"South Ayrshire",66300
+2019,"South Lanarkshire",202200
+2019,"Stirling",60500
+2019,"West Dunbartonshire",56600
+2019,"West Lothian",117100
+2020,"Aberdeen City",156700
+2020,"Aberdeenshire",160000
+2020,"Angus",68900
+2020,"Argyll and Bute",50500
+2020,"Clackmannanshire",31800
+2020,"Dumfries and Galloway",86200
+2020,"Dundee City",98800
+2020,"East Ayrshire",75500
+2020,"East Dunbartonshire",64500
+2020,"East Lothian",66000
+2020,"East Renfrewshire",57000
+2020,"Edinburgh, City of",368500
+2020,"Eilean Siar",15400
+2020,"Falkirk",102000
+2020,"Fife",231800
+2020,"Glasgow City",449500
+2020,"Highland",142900
+2020,"Inverclyde",48200
+2020,"Midlothian",57500
+2020,"Moray",58600
+2020,"North Ayrshire",81100
+2020,"North Lanarkshire",219100
+2020,"Orkney Islands",13400
+2020,"Perth and Kinross",91300
+2020,"Renfrewshire",115100
+2020,"Scottish Borders",67300
+2020,"Shetland Islands",13900
+2020,"South Ayrshire",65800
+2020,"South Lanarkshire",201800
+2020,"Stirling",60400
+2020,"West Dunbartonshire",56000
+2020,"West Lothian",117700
+2011,"Scotland",3487400
+2012,"Scotland",3473100
+2013,"Scotland",3469500
+2014,"Scotland",3468400
+2015,"Scotland",3478000
+2016,"Scotland",3489900
+2017,"Scotland",3494900
+2018,"Scotland",3492200
+2019,"Scotland",3497800
+2020,"Scotland",3493200

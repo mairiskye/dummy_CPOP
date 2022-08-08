@@ -30,7 +30,7 @@ resp <- httr::POST(
              ?data ?measureType ?score.}"))
 
 #parse response to get data
-data <- httr::content(resp, as = "parsed")
+data <- httr::content(resp, as = "parsed", encoding = "UTF-8")
 
 #rename columns to ultimately match master data format
 names(data)[names(data) == "councilName"] <- "CPP"

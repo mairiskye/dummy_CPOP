@@ -28,7 +28,7 @@ write.csv(wa_population_with_totals, "data_update/data/working_age_population_cp
 #GET CHILDRENS POPULATION DATA-----------------------------
 
 query_children_population <- httr::GET("https://www.nomisweb.co.uk/api/v01/dataset/NM_31_1.data.csv?geography=2013265931TYPE432&measures=20100&sex=7&age=24&time=2008,latest&select=DATE,GEOGRAPHY_NAME,OBS_VALUE")
-children_population <- content(query_children_population, as = "parsed", type = "text/csv") %>%
+children_population <- content(query_children_population, as = "parsed", type = "text/csv", encoding = "UTF-8") %>%
   as_tibble() %>%
   na.omit()
 

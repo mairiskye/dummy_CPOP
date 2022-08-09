@@ -33,7 +33,7 @@ The scripts which obtain the data from five APIs are within the _/data_update/AP
 Once you have [cloned](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)  this repository, in RStudio, in the console run `renv::restore()` to synchronize your package library with that in the lockfile to ensure package dependencies for this project are met. Note: if you are asked to run `renv::activate()`, do so.
 
 ### 2. Check if JSON Update is Required
-The StatXplore API queries use `.json` files which can be auto-generated using the StatXplore table-generator UI. These query specific time-series dates so have to be manually updated as new data becomes available (once annually). 
+The StatXplore API queries use .json files which can be auto-generated using the StatXplore table-generator UI. These query specific time-series dates so have to be manually updated as new data becomes available (once annually). 
 To check whether these files need updated, go to _/data_update/json/_ and take note of the dates in the files name (mm_yy) for a given dataset. Then log in to statxplore and check whether there has been new release since that date.
 
 ![StatXplore screenshot](www/statxplore_screenshot.png)
@@ -41,7 +41,7 @@ To check whether these files need updated, go to _/data_update/json/_ and take n
 If there has been a release since the month/year in the current file names, follow [these instructions](#obtain-json-files) to obtain new files and update file references in scripts.
 
 ### 3. Run API Scripts
-Run the  `/data_update/update_data.R` file.
+Run the  _/data_update/update_data.R_ file.
 This runs all individual API query scripts (within _/data_update/API_queries_) in the correct order. Since this involves 11 successive API calls it might take a minute or two to complete. The last script called _(/data_update/API_scripts/run_third/master_data.R)_  contains code which automatically updates the file reference in the `global.R` script ro read newest metadata. 
 
 The dashboard should show the latest data when run.
@@ -61,13 +61,15 @@ Should you encounter an error running the _/data_update/update_data.R_ file. You
 7. save this file to _/data_update/json/_ with the name _oowb_mm_yy.json_ (with the relevant month_year). Moving older json to historic_json after.
 (The above steps can be repeated to obtain oowb_historic data by clicking on 'Benefit Combinations - Data to November 2018' at step 2 - whilst this dataset will not include more years, there may be historic updates to the data so it would be worth updating the json file).
 8. Open the _/data_update/json/update_json_references.R_ file. These are the first lines:
+```
+  #UPDATE with correct date when new .json files are added with format "mm_yy"
+  child_poverty <- "08_22"
+  oowb <- "08_22"
+  oowb_historic <- "08_22"
 
-`#UPDATE when new .json files are added with format "mm_yy"`
-`child_poverty <- "08_22"`
-`oowb <- "08_22"`
-`oowb_historic <- "08_22"`
+```
 
-Update the appropriate variable (say oowb) with the date which corresponds to the newly created R file. Run this code. This will update the file name referenced in the scripts which depend on this file.
+Update the appropriate variable (say `oowb`) with the date which corresponds to the newly created R file. Run this code. This will update the file name referenced in the scripts which depend on this file.
 
 
 #### Child Poverty .json File

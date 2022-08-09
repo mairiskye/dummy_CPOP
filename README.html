@@ -413,7 +413,7 @@ data in the form of a csv output generated in another script.</p>
 <td>Healthy Birthweight</td>
 <td>Appropriate Birthweight for Gestational Age</td>
 <td><a href="https://www.opendata.nhs.scot/dataset/births-in-scottish-hospitals/resource/a5d4de3f-e340-455f-b4e4-e26321d09207" target="_blank">
-PHS </a> ()</td>
+PHS </a></td>
 <td><a href="https://www.opendata.nhs.scot/" target="_blank">PHS Open
 Data API</a></td>
 <td><a href="https://github.com/Public-Health-Scotland/phsopendata" target="_blank">phsopendata()</a></td>
@@ -610,9 +610,11 @@ updating the json file).</li>
 <li>Open the <em>/data_update/json/update_json_references.R</em> file.
 These are the first lines:</li>
 </ol>
-<p><code>#UPDATE when new .json files are added with format &quot;mm_yy&quot;</code>
-<code>child_poverty &lt;- &quot;08_22&quot;</code> <code>oowb &lt;- &quot;08_22&quot;</code>
-<code>oowb_historic &lt;- &quot;08_22&quot;</code></p>
+<pre><code>  `#UPDATE when new .json files are added with format &quot;mm_yy&quot;`
+  `child_poverty &lt;- &quot;08_22&quot;`
+  `oowb &lt;- &quot;08_22&quot;`
+  `oowb_historic &lt;- &quot;08_22&quot;`
+</code></pre>
 <p>Update the appropriate variable (say oowb) with the date which
 corresponds to the newly created R file. Run this code. This will update
 the file name referenced in the scripts which depend on this file.</p>

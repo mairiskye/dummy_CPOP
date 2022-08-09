@@ -34,9 +34,13 @@ Once you have [cloned](https://docs.github.com/en/repositories/creating-and-mana
 
 ### 2. Check if JSON Update is Required
 The StatXplore API queries use .json files which can be auto-generated using the StatXplore table-generator UI. These query specific time-series dates so have to be manually updated as new data becomes available (once annually). 
-To check whether these files need updated, go to _/data_update/json/_ and take note of the dates in the files name (mm_yy) for a given dataset. Then log in to statxplore and check whether there has been new release since that date.
+To check whether these files need updated, go to _/data_update/json/_ and take note of the dates in the files name (mm_yy) for a given dataset.
 
-![StatXplore screenshot](www/statxplore_screenshot.png)
+![](www/json_files_screenshot.png)
+
+Then log in to statxplore and check whether there has been new release since that date.
+
+![](www/statxplore_screenshot.png)
 
 If there has been a release since the month/year in the current file names, follow [these instructions](#obtain-json-files) to obtain new files and update file references in scripts.
 
@@ -51,7 +55,7 @@ Should you encounter an error running the _/data_update/update_data.R_ file. You
 ***
 ## Obtain JSON Files
 
-#### Out of Work Benefits .json File
+### Out of Work Benefits .json File
 1. Visit [Stat-Xplore](https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml)  and log-in/sign up.
 2. Go to  _Datasets > Benefit Combinations > Benefit Combinations - Data from February 2019_, and click the blue _'New Table'_ button above.
 3. Go to  _Geography > National_Regional_LA_OAs > Great Britain_. Click on the small arrow to the RIGHT of _Scotland_ and select _Local Authority_. This should select all Scottish LAs. Click the _Row_ button above to add to table.
@@ -72,7 +76,7 @@ Should you encounter an error running the _/data_update/update_data.R_ file. You
 Update the appropriate variable (say `oowb`) with the date which corresponds to the newly created R file. Run this code. This will update the file name referenced in the scripts which depend on this file.
 
 
-#### Child Poverty .json File
+### Child Poverty .json File
 1. Visit [Stat-Xplore](https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml)  and log-in/sign up.
 2. Go to _Datasets > Children in Low Income Families > Relative Low Income_ and click the blue _New Table_ button above.
 3. Go to _Geography > National_Regional_LA_OAs > Great Britain_. Click on the small arrow to the RIGHT of _Scotland_ and select _Local Authority_. This should select all Scottish LAs. Click the _Row_ button above to add to table.
@@ -83,7 +87,7 @@ Update the appropriate variable (say `oowb`) with the date which corresponds to 
 8. As above.
 
 *** 
-### A note on other folders (helpers)
+## Other Data Update Folders
 
 #### make_nomis_uris
 The _/data_update/make_nomis_uris/_ folder contains scripts which programatically extract parameter IDs from NOMIS dataset metadata which must be appended to the query URI (without which the response from the API is too large and is rate-limited at 25,000 observations). These script use the `nomir` package which can be found on [git hub](https://github.com/ropensci/nomisr). Any script which queries NOMIS has a corresponding make_nomis_uri script, but this is available solely to troubleshoot any problems should the API request return an error, and the data update process is not dependant on these.
